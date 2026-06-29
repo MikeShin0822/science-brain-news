@@ -1,0 +1,23 @@
+# News source candidates for future automation.
+# Keep high-signal sources first, then expand slowly.
+brain_science:
+  - name: Nature Neuroscience
+    url: https://www.nature.com/neuro/
+  - name: ScienceDaily Neuroscience
+    url: https://www.sciencedaily.com/news/mind_brain/neuroscience/
+  - name: Neuroscience News
+    url: https://neurosciencenews.com/
+life_science:
+  - name: Nature Biotechnology
+    url: https://www.nature.com/nbt/
+  - name: ScienceDaily Biology
+    url: https://www.sciencedaily.com/news/plants_animals/biology/
+  - name: STAT Biotech
+    url: https://www.statnews.com/category/biotech/
+papers:
+  - name: Nature
+    url: https://www.nature.com/
+  - name: Science
+    url: https://www.science.org/
+  - name: Cell
+    url: https://www.cell.com/
