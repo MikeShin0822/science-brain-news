@@ -4,7 +4,7 @@ import NewsCard from '../components/NewsCard.astro';
 import { getNewsItems } from '../utils/news';
 
 const items = await getNewsItems();
-const latest = items.slice(0, 6);
+const latest = items.slice(0, 10);
 const brain = items.filter((item) => item.category === '뇌과학').slice(0, 3);
 const life = items.filter((item) => item.category === '생명과학').slice(0, 3);
 const papers = items.filter((item) => item.category === '논문').slice(0, 3);
@@ -23,7 +23,7 @@ const href = (path = '') => `${base}${path.replace(/^\/+/, '')}`;
   </section>
 
   <section id="latest" class="container">
-    <div class="section-head"><div><h2>최신 큐레이션</h2><p>새로 추가된 뉴스입니다.</p></div></div>
+    <div class="section-head"><div><h2>최신 큐레이션 10개</h2><p>새로 추가된 뉴스와 논문입니다.</p></div></div>
     <div class="grid">{latest.map((item) => <NewsCard item={item} />)}</div>
   </section>
 
