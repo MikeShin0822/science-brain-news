@@ -2,9 +2,10 @@
 """Daily Science Brain News collector.
 
 Runs in GitHub Actions with the Python standard library only.
-It creates one daily Markdown briefing containing 5 public-facing news items
-and 5 papers/preprints, while avoiding URLs already stored in data/seen_urls.json
-or existing Markdown posts.
+It creates 10 individual Markdown posts every day:
+- 5 public-facing news posts
+- 5 paper summary posts
+It avoids URLs already stored in data/seen_urls.json or existing Markdown posts.
 """
 
 import argparse
@@ -118,7 +119,7 @@ def parse_date(value):
         return dt.astimezone(timezone.utc).date().isoformat()
     except Exception:
         pass
-    for fmt in ("%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d", "%Y.%m.%d"):
+    for fmt in ("%Y-%m-%dT%H:%M:%SZ", "%Y-%m-%dT%H:%M:%S%z", "%Y-%m-%d"):
         try:
             return datetime.strptime(value[:25], fmt).date().isoformat()
         except Exception:
@@ -143,7 +144,7 @@ def score(title, summary, priority, date_value):
     return score_value
 
 
-def item(kind, title, url, summary, source, date_value, category, score_value):
+def make_item(kind, title, url, summary, source, date_value, category, score_value):
     return {
         "kind": kind,
         "title": title,
@@ -173,8 +174,9 @@ def parse_rss(src, kind):
         if not title or not url:
             continue
         date_value = parse_date(text_child(elem, ["pubDate", "updated", "published", "date"]))
-        out.append(item(kind, title, url, summary or title, src["name"], date_value,
-                        src.get("category", "뇌과학"), score(title, summary, src.get("priority", 0), date_value)))
+        category = src.get("category", "뇌과학") if kind == "popular" else "논문"
+        out.append(make_item(kind, title, url, summary or title, src["name"], date_value,
+                             category, score(title, summary, src.get("priority", 0), date_value)))
     return out
 
 
@@ -198,8 +200,8 @@ def parse_biorxiv(src):
             continue
         link = row.get("url") or f"https://doi.org/{doi}"
         date_value = parse_date(row.get("date") or row.get("published") or row.get("server_date"))
-        out.append(item("paper", title, link, summary or title, src["name"], date_value, "논문",
-                        score(title, summary, src.get("priority", 0), date_value)))
+        out.append(make_item("paper", title, link, summary or title, src["name"], date_value, "논문",
+                             score(title, summary, src.get("priority", 0), date_value)))
     return out
 
 
@@ -248,45 +250,46 @@ def select(candidates, limit, seen, per_source):
     return picked
 
 
-def md_escape(value):
-    return (value or "").replace("|", "\\|").strip()
+def slugify(title):
+    value = unicodedata.normalize("NFKD", title).encode("ascii", "ignore").decode("ascii")
+    value = re.sub(r"[^a-zA-Z0-9]+", "-", value.lower()).strip("-")
+    return value[:70].strip("-") or h(title)
 
 
 def yaml_list(values):
     return "[" + ", ".join(json.dumps(v, ensure_ascii=False) for v in values) + "]"
 
 
-def render(popular, papers, today):
+def md_escape(value):
+    return (value or "").replace("|", "\\|").strip()
+
+
+def render_post(x, today, index):
     date_str = today.date().isoformat()
-    total = len(popular) + len(papers)
+    is_paper = x["kind"] == "paper"
+    source_url = canon(x["url"])
+    title = x["title"]
+    desc = x["summary"][:150] + ("…" if len(x["summary"]) > 150 else "")
+    tags = ["논문", "summary"] if is_paper else ["뉴스", "뇌과학", "생명과학"]
     lines = [
         "---",
-        f"title: {json.dumps(f'{date_str} 데일리 브리핑: 뇌과학·생명과학 {total}선', ensure_ascii=False)}",
-        f"description: {json.dumps(f'대중적 뉴스 {len(popular)}개와 논문 {len(papers)}개를 중복 없이 정리했습니다.', ensure_ascii=False)}",
+        f"title: {json.dumps(title, ensure_ascii=False)}",
+        f"description: {json.dumps(desc, ensure_ascii=False)}",
         f"date: {json.dumps(date_str, ensure_ascii=False)}",
-        'category: "브리핑"',
-        'source: "Daily Collector"',
-        'sourceUrl: "https://github.com/MikeShin0822/science-brain-news"',
-        f"tags: {yaml_list(['daily', '뇌과학', '생명과학', '논문'])}",
-        'importance: "매일 10:00 KST 자동 수집"',
+        f"category: {json.dumps('논문' if is_paper else x.get('category', '뇌과학'), ensure_ascii=False)}",
+        f"source: {json.dumps(x['source'], ensure_ascii=False)}",
+        f"sourceUrl: {json.dumps(source_url, ensure_ascii=False)}",
+        f"tags: {yaml_list(tags)}",
+        f"importance: {json.dumps('매일 10:00 KST 자동 수집', ensure_ascii=False)}",
         "---", "",
-        f"이 글은 {date_str} 10:00 KST 기준 자동 수집 후보 중 중복 URL을 제외하고 선별한 데일리 브리핑입니다.", "",
-        "## 대중적 뉴스 5개", "",
     ]
-    if popular:
-        for i, x in enumerate(popular, 1):
-            lines += [f"### {i}. {md_escape(x['title'])}", "", f"- 출처: {md_escape(x['source'])}",
-                      f"- 요약: {md_escape(x['summary'])}", f"- 링크: [원문 보기]({x['url']})", ""]
+    if is_paper:
+        lines += [f"요약: {md_escape(x['summary'])}", "", f"[논문 링크]({source_url})", ""]
     else:
-        lines += ["수집된 신규 대중 뉴스가 없습니다.", ""]
-    lines += ["## 논문 5개", ""]
-    if papers:
-        for i, x in enumerate(papers, 1):
-            lines += [f"### {i}. {md_escape(x['title'])}", "", f"요약: {md_escape(x['summary'])}", "",
-                      f"[논문 링크]({x['url']})", ""]
-    else:
-        lines += ["수집된 신규 논문이 없습니다.", ""]
-    return "\n".join(lines).rstrip() + "\n"
+        lines += ["## 핵심 요약", "", md_escape(x["summary"]), "", "## 원문", "", f"[원문 보기]({source_url})", ""]
+    prefix = "paper" if is_paper else "news"
+    filename = f"{date_str}-{prefix}-{index:02d}-{slugify(title)}.md"
+    return filename, "\n".join(lines).rstrip() + "\n"
 
 
 def main():
@@ -315,21 +318,24 @@ def main():
     print(f"Selected popular={len(popular)} papers={len(papers)}")
     if not popular and not papers:
         return 0
-    content = render(popular, papers, today)
+    selected = popular + papers
+    rendered = [render_post(x, today, i + 1) for i, x in enumerate(selected)]
     if args.dry_run:
-        print(content)
+        for name, content in rendered:
+            print(f"--- {name} ---")
+            print(content[:1200])
         return 0
     NEWS_DIR.mkdir(parents=True, exist_ok=True)
-    out = NEWS_DIR / f"{today.date().isoformat()}-daily-briefing.md"
-    out.write_text(content, encoding="utf-8")
+    for name, content in rendered:
+        (NEWS_DIR / name).write_text(content, encoding="utf-8")
     by_hash = {x.get("hash"): x for x in entries if x.get("hash")}
-    for x in popular + papers:
+    for x in selected:
         by_hash[x["hash"]] = {"hash": x["hash"], "url": canon(x["url"]), "title": x["title"],
                               "source": x["source"], "kind": x["kind"],
                               "added_at": today.isoformat(timespec="seconds")}
     SEEN.parent.mkdir(parents=True, exist_ok=True)
     SEEN.write_text(json.dumps(list(by_hash.values())[-1200:], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(f"Wrote {out.relative_to(ROOT)} and updated {SEEN.relative_to(ROOT)}")
+    print(f"Wrote {len(rendered)} individual posts and updated {SEEN.relative_to(ROOT)}")
     return 0
 
 
