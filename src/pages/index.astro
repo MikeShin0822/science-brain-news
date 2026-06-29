@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import NewsCard from '../components/NewsCard.astro';
+import { getNewsItems } from '../utils/news';
+
+const items = await getNewsItems();
+const latest = items.slice(0, 6);
+const brain = items.filter((item) => item.category === '뇌과학').slice(0, 3);
+const life = items.filter((item) => item.category === '생명과학').slice(0, 3);
+const papers = items.filter((item) => item.category === '논문').slice(0, 3);
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="Science Brain News">
+  <section class="container hero">
+    <span class="kicker">Brain · Life Science · Research</span>
+    <h1>뇌과학·생명과학 뉴스 큐레이션.</h1>
+    <p class="lead">연구와 과학 뉴스를 선별해 핵심만 짧게 정리합니다.</p>
+    <div class="hero-actions">
+      <a class="button primary" href="#latest">최신 뉴스 보기</a>
+      <a class="button" href={`${base}rss.xml`}>RSS 구독</a>
+    </div>
+  </section>
+
+  <section id="latest" class="container">
+    <div class="section-head"><div><h2>최신 큐레이션</h2><p>새로 추가된 뉴스입니다.</p></div></div>
+    <div class="grid">{latest.map((item) => <NewsCard item={item} />)}</div>
+  </section>
+
+  <section class="container">
+    <div class="section-head"><div><h2>뇌과학</h2><p>인지, 수면, 감정, 신경가소성.</p></div><a href={`${base}brain/`}>더 보기 →</a></div>
+    <div class="grid">{brain.map((item) => <NewsCard item={item} />)}</div>
+  </section>
+
+  <section class="container">
+    <div class="section-head"><div><h2>생명과학</h2><p>노화, 유전, 면역, 세포, 바이오테크.</p></div><a href={`${base}life/`}>더 보기 →</a></div>
+    <div class="grid">{life.map((item) => <NewsCard item={item} />)}</div>
+  </section>
+
+  <section class="container">
+    <div class="section-head"><div><h2>논문 읽기</h2><p>원문 연구를 쉬운 해설로 바꿉니다.</p></div><a href={`${base}papers/`}>더 보기 →</a></div>
+    <div class="grid">{papers.map((item) => <NewsCard item={item} />)}</div>
+  </section>
+</BaseLayout>
