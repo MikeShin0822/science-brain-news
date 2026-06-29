@@ -1,1 +1,82 @@
-[]
+[
+  {
+    "hash": "ba6d231ea84de292",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260622014300.htm",
+    "title": "Millions take omega-3 fish oil for brain health but a new study found no benefit",
+    "source": "ScienceDaily",
+    "kind": "popular",
+    "added_at": "2026-06-29T21:00:00+09:00"
+  },
+  {
+    "hash": "fcc31026393c31bd",
+    "url": "https://www.sciencedaily.com/releases/2026/06/260621060307.htm",
+    "title": "These fat-filled brain cells may be making multiple sclerosis worse",
+    "source": "ScienceDaily",
+    "kind": "popular",
+    "added_at": "2026-06-29T21:00:00+09:00"
+  },
+  {
+    "hash": "b9cc8ad05e107ded",
+    "url": "https://neurosciencenews.com/hearing-aids-epilepsy-dementia-30956",
+    "title": "Hearing Aids Linked to 23% Lower Dementia Risk in Epilepsy",
+    "source": "Neuroscience News",
+    "kind": "popular",
+    "added_at": "2026-06-29T21:00:00+09:00"
+  },
+  {
+    "hash": "84109eeea64cab20",
+    "url": "https://medicalxpress.com/news/2026-01-widely-pesticide-linked-parkinson.html",
+    "title": "Widely used pesticide linked to more than doubled Parkinson's risk",
+    "source": "Medical Xpress",
+    "kind": "popular",
+    "added_at": "2026-06-29T21:00:00+09:00"
+  },
+  {
+    "hash": "d9aca2e6863b3b2e",
+    "url": "https://www.thetransmitter.org/artificial-intelligence/ai-cant-solve-the-brain-without-data-that-fit-together",
+    "title": "AI can’t solve the brain without data that fit together",
+    "source": "The Transmitter",
+    "kind": "popular",
+    "added_at": "2026-06-29T21:00:00+09:00"
+  },
+  {
+    "hash": "67111063b700ba3f",
+    "url": "https://www.nature.com/articles/s41593-026-02342-9",
+    "title": "Interpretable abstractions of artificial neural networks predict behavior and neural activity during human information gathering",
+    "source": "Nature Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-06-29T21:00:00+09:00"
+  },
+  {
+    "hash": "8f7105c934d128f1",
+    "url": "https://www.nature.com/articles/s41593-026-02331-y",
+    "title": "Conditioned accumbal dopamine transients forecast individual preference for drug versus natural rewards and compulsive behavior",
+    "source": "Nature Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-06-29T21:00:00+09:00"
+  },
+  {
+    "hash": "3dff28339d7bf7b0",
+    "url": "https://www.nature.com/articles/s41593-026-02320-1",
+    "title": "The mitochondrial unfolded protein response in human microglia disrupts neuronal–glial communication and promotes senescence",
+    "source": "Nature Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-06-29T21:00:00+09:00"
+  },
+  {
+    "hash": "7aa94ba4053277de",
+    "url": "https://www.nature.com/articles/s41593-026-02353-6",
+    "title": "Striatal control of amygdalar acetylcholine release during salience-associated processing",
+    "source": "Nature Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-06-29T21:00:00+09:00"
+  },
+  {
+    "hash": "ba565d396c1caf4c",
+    "url": "https://www.nature.com/articles/s41593-026-02333-w",
+    "title": "Learning shapes neural geometry in the primate prefrontal cortex",
+    "source": "Nature Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-06-29T21:00:00+09:00"
+  }
+]
