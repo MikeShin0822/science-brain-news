@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getNewsByCategory } from '../../utils/news';
+const items = await getNewsByCategory('뇌과학');
+---
+<BaseLayout title="뇌과학 | Science Brain News">
+  <section class="container hero">
+    <span class="kicker">Brain Science</span>
+    <h1>뇌과학 뉴스.</h1>
+    <p class="lead">인지, 수면, 감정, 기억, 신경가소성 관련 뉴스를 모읍니다.</p>
+  </section>
+  <section class="container">
+    <div class="grid">{items.map((item) => <NewsCard item={item} />)}</div>
+  </section>
+</BaseLayout>
