@@ -11,7 +11,7 @@ export async function GET(context) {
       title: item.title,
       description: item.description,
       pubDate: new Date(item.date),
-      link: `news/${item.slug}/`
+      link: new URL(`${import.meta.env.BASE_URL}news/${item.slug}/`, context.site).href
     }))
   });
 }
