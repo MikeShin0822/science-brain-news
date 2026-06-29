@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import NewsCard from '../../components/NewsCard.astro';
+import { getNewsByCategory } from '../../utils/news';
+const items = await getNewsByCategory('논문');
+---
+<BaseLayout title="논문 | Science Brain News">
+  <section class="container hero">
+    <span class="kicker">Research Papers</span>
+    <h1>논문 읽기.</h1>
+    <p class="lead">원문 연구를 요약과 링크 중심으로 정리합니다.</p>
+  </section>
+  <section class="container">
+    <div class="grid">{items.map((item) => <NewsCard item={item} />)}</div>
+  </section>
+</BaseLayout>
