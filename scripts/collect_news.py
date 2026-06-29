@@ -6,6 +6,7 @@ It creates 10 individual Markdown posts every day:
 - 5 public-facing news posts
 - 5 paper summary posts
 It avoids URLs already stored in data/seen_urls.json or existing Markdown posts.
+Generated posts use longer summaries so cards lead to useful detail pages.
 """
 
 import argparse
@@ -170,7 +171,7 @@ def parse_rss(src, kind):
             continue
         title = clean(text_child(elem, ["title"]), 220)
         url = link_child(elem)
-        summary = clean(text_child(elem, ["description", "summary", "content", "encoded"]), 700)
+        summary = clean(text_child(elem, ["description", "summary", "content", "encoded"]), 1800)
         if not title or not url:
             continue
         date_value = parse_date(text_child(elem, ["pubDate", "updated", "published", "date"]))
@@ -195,7 +196,7 @@ def parse_biorxiv(src):
     for row in data.get("collection", []):
         title = clean(row.get("title"), 240)
         doi = str(row.get("doi") or "").strip()
-        summary = clean(row.get("abstract"), 900)
+        summary = clean(row.get("abstract"), 2400)
         if not title or not doi:
             continue
         link = row.get("url") or f"https://doi.org/{doi}"
@@ -264,29 +265,71 @@ def md_escape(value):
     return (value or "").replace("|", "\\|").strip()
 
 
+def compact_summary(value, fallback):
+    value = md_escape(value) or fallback
+    return value
+
+
+def news_context(title, source, category):
+    return (
+        f"이 항목은 {source}에서 수집한 {category} 관련 뉴스입니다. "
+        "자동 수집 단계에서는 원문 전체를 복사하지 않고, 공개 RSS 설명과 제목을 바탕으로 핵심 맥락을 정리합니다. "
+        "따라서 세부 수치, 연구 설계, 표본 규모, 제한점은 반드시 원문을 함께 확인하는 방식으로 읽는 것이 좋습니다."
+    )
+
+
+def paper_context(source):
+    return (
+        f"이 논문 항목은 {source}에서 수집한 연구 요약입니다. "
+        "자동 수집 결과는 논문의 초록이나 공개 메타데이터를 바탕으로 정리되며, 결론을 확정적으로 받아들이기보다는 연구 질문, 방법, 대상, 한계를 함께 확인하는 출발점으로 보는 것이 좋습니다. "
+        "특히 프리프린트나 조기 공개 논문은 후속 검증과 동료평가 과정에서 해석이 달라질 수 있습니다."
+    )
+
+
 def render_post(x, today, index):
     date_str = today.date().isoformat()
     is_paper = x["kind"] == "paper"
     source_url = canon(x["url"])
     title = x["title"]
-    desc = x["summary"][:150] + ("…" if len(x["summary"]) > 150 else "")
-    tags = ["논문", "summary"] if is_paper else ["뉴스", "뇌과학", "생명과학"]
+    summary = compact_summary(x.get("summary"), title)
+    desc = summary[:220] + ("…" if len(summary) > 220 else "")
+    tags = ["논문", "summary", "long-summary"] if is_paper else ["뉴스", "뇌과학", "생명과학", "long-summary"]
+    category = "논문" if is_paper else x.get("category", "뇌과학")
     lines = [
         "---",
         f"title: {json.dumps(title, ensure_ascii=False)}",
         f"description: {json.dumps(desc, ensure_ascii=False)}",
         f"date: {json.dumps(date_str, ensure_ascii=False)}",
-        f"category: {json.dumps('논문' if is_paper else x.get('category', '뇌과학'), ensure_ascii=False)}",
+        f"category: {json.dumps(category, ensure_ascii=False)}",
         f"source: {json.dumps(x['source'], ensure_ascii=False)}",
         f"sourceUrl: {json.dumps(source_url, ensure_ascii=False)}",
         f"tags: {yaml_list(tags)}",
-        f"importance: {json.dumps('매일 10:00 KST 자동 수집', ensure_ascii=False)}",
+        f"importance: {json.dumps('매일 10:00 KST 자동 수집 · 확장 요약', ensure_ascii=False)}",
         "---", "",
     ]
     if is_paper:
-        lines += [f"요약: {md_escape(x['summary'])}", "", f"[논문 링크]({source_url})", ""]
+        lines += [
+            "## 요약", "",
+            summary, "",
+            "## 읽을 때 볼 점", "",
+            paper_context(x["source"]), "",
+            "- 연구가 다루는 핵심 질문이 무엇인지 확인합니다.",
+            "- 동물실험, 세포실험, 인간 대상 연구인지 구분합니다.",
+            "- 결과가 실제 치료, 제품, 생활 조언으로 이어지기까지 어느 정도 거리가 있는지 확인합니다.",
+            "", f"[논문 링크]({source_url})", "",
+        ]
     else:
-        lines += ["## 핵심 요약", "", md_escape(x["summary"]), "", "## 원문", "", f"[원문 보기]({source_url})", ""]
+        lines += [
+            "## 핵심 요약", "",
+            summary, "",
+            "## 왜 중요한가", "",
+            news_context(title, x["source"], category), "",
+            "## 읽을 때 주의할 점", "",
+            "- 기사 제목만 보고 건강 조언으로 바로 바꾸지 않습니다.",
+            "- 원문에서 연구 대상, 방법, 한계, 이해상충 여부를 확인합니다.",
+            "- 같은 주제를 다른 연구와 비교해 반복적으로 확인된 결과인지 살펴봅니다.",
+            "", "## 원문", "", f"[원문 보기]({source_url})", "",
+        ]
     prefix = "paper" if is_paper else "news"
     filename = f"{date_str}-{prefix}-{index:02d}-{slugify(title)}.md"
     return filename, "\n".join(lines).rstrip() + "\n"
@@ -323,7 +366,7 @@ def main():
     if args.dry_run:
         for name, content in rendered:
             print(f"--- {name} ---")
-            print(content[:1200])
+            print(content[:1800])
         return 0
     NEWS_DIR.mkdir(parents=True, exist_ok=True)
     for name, content in rendered:
