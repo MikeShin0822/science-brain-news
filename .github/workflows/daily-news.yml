@@ -8,15 +8,13 @@ on:
 
 permissions:
   contents: write
-  pages: write
-  id-token: write
 
 concurrency:
   group: daily-news
   cancel-in-progress: false
 
 jobs:
-  collect-build-deploy:
+  collect:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -35,45 +33,14 @@ jobs:
       - name: Collect daily news and papers
         run: python scripts/collect_news.py
 
-      - name: Commit collected briefing
-        id: commit
+      - name: Commit collected posts
         run: |
           if [ -n "$(git status --porcelain src/content/news data/seen_urls.json)" ]; then
             git config user.name "github-actions[bot]"
             git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
             git add src/content/news data/seen_urls.json
-            git commit -m "Add daily science news briefing"
+            git commit -m "Add daily science news posts"
             git push
-            echo "changed=true" >> "$GITHUB_OUTPUT"
           else
-            echo "No new briefing to commit."
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No new posts to commit."
           fi
-
-      - name: Setup Node
-        if: steps.commit.outputs.changed == 'true'
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-
-      - name: Install dependencies
-        if: steps.commit.outputs.changed == 'true'
-        run: npm install
-
-      - name: Build Astro site
-        if: steps.commit.outputs.changed == 'true'
-        run: npm run build
-
-      - name: Setup Pages
-        if: steps.commit.outputs.changed == 'true'
-        uses: actions/configure-pages@v5
-
-      - name: Upload Pages artifact
-        if: steps.commit.outputs.changed == 'true'
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: ./dist
-
-      - name: Deploy to GitHub Pages
-        if: steps.commit.outputs.changed == 'true'
-        uses: actions/deploy-pages@v4
