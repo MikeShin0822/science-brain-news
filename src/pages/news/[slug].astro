@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getNewsItems } from '../../utils/news';
+
+export async function getStaticPaths() {
+  const items = await getNewsItems();
+  return items.map((item) => ({ params: { slug: item.slug }, props: { item } }));
+}
+
+const { item } = Astro.props;
+const { Content } = item;
+const categoryClass = item.category === '뇌과학' ? 'brain' : item.category === '생명과학' ? 'life' : 'paper';
+---
+<BaseLayout title={`${item.title} | Science Brain News`} description={item.description}>
+  <section class="container prose">
+    <article>
+      <div class="meta">
+        <span class={`badge ${categoryClass}`}>{item.category}</span>
+        <span>{new Date(item.date).toLocaleDateString('ko-KR')}</span>
+        <span>{item.source}</span>
+      </div>
+      <h1>{item.title}</h1>
+      <p class="lead">{item.description}</p>
+      <div class="tags">{item.tags?.map((tag) => <span class="tag">#{tag}</span>)}</div>
+      <hr />
+      <Content />
+      {item.sourceUrl && <p><a href={item.sourceUrl} target="_blank" rel="noreferrer">원문 보기</a></p>}
+    </article>
+  </section>
+</BaseLayout>
