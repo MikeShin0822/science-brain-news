@@ -1,0 +1,110 @@
+{
+  "popular_news_limit": 5,
+  "papers_limit": 5,
+  "popular_per_source_limit": 2,
+  "papers_per_source_limit": 3,
+  "popular_news": [
+    {
+      "id": "sciencedaily_neuroscience",
+      "name": "ScienceDaily Neuroscience",
+      "type": "rss",
+      "category": "뇌과학",
+      "priority": 30,
+      "url": "https://www.sciencedaily.com/rss/mind_brain/neuroscience.xml"
+    },
+    {
+      "id": "neuroscience_news",
+      "name": "Neuroscience News",
+      "type": "rss",
+      "category": "뇌과학",
+      "priority": 28,
+      "url": "https://neurosciencenews.com/feed/"
+    },
+    {
+      "id": "the_transmitter",
+      "name": "The Transmitter",
+      "type": "rss",
+      "category": "뇌과학",
+      "priority": 26,
+      "url": "https://www.thetransmitter.org/feed/"
+    },
+    {
+      "id": "medical_xpress_neuroscience",
+      "name": "Medical Xpress Neuroscience",
+      "type": "rss",
+      "category": "뇌과학",
+      "priority": 23,
+      "url": "https://medicalxpress.com/rss-feed/neuroscience-news/"
+    },
+    {
+      "id": "bioin_news",
+      "name": "BioIN News",
+      "type": "rss",
+      "category": "생명과학",
+      "priority": 22,
+      "url": "https://www.bioin.or.kr/rss/rssNews.xml"
+    },
+    {
+      "id": "bioin_trend",
+      "name": "BioIN Trend",
+      "type": "rss",
+      "category": "생명과학",
+      "priority": 21,
+      "url": "https://www.bioin.or.kr/rss/rssTrend.xml"
+    }
+  ],
+  "papers": [
+    {
+      "id": "biorxiv_neuroscience",
+      "name": "bioRxiv Neuroscience",
+      "type": "biorxiv",
+      "server": "biorxiv",
+      "api_category": "neuroscience",
+      "days": 14,
+      "priority": 35
+    },
+    {
+      "id": "biorxiv_cell_biology",
+      "name": "bioRxiv Cell Biology",
+      "type": "biorxiv",
+      "server": "biorxiv",
+      "api_category": "cell_biology",
+      "days": 14,
+      "priority": 25
+    },
+    {
+      "id": "biorxiv_genomics",
+      "name": "bioRxiv Genomics",
+      "type": "biorxiv",
+      "server": "biorxiv",
+      "api_category": "genomics",
+      "days": 14,
+      "priority": 22
+    },
+    {
+      "id": "medrxiv_neurology",
+      "name": "medRxiv Neurology",
+      "type": "biorxiv",
+      "server": "medrxiv",
+      "api_category": "neurology",
+      "days": 21,
+      "priority": 24
+    },
+    {
+      "id": "nature_neuroscience_aop",
+      "name": "Nature Neuroscience AOP",
+      "type": "rss",
+      "category": "논문",
+      "priority": 34,
+      "url": "https://www.nature.com/neuro/journal/vaop/ncurrent/rss.rdf"
+    },
+    {
+      "id": "nature_neuroscience_current",
+      "name": "Nature Neuroscience Current Issue",
+      "type": "rss",
+      "category": "논문",
+      "priority": 32,
+      "url": "https://www.nature.com/neuro/current_issue/rss/"
+    }
+  ]
+}
