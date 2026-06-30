@@ -2,8 +2,8 @@ name: Daily science news collection
 
 on:
   schedule:
-    # 10:00 KST = 01:00 UTC
-    - cron: "0 1 * * *"
+    # 09:30 KST = 00:30 UTC
+    - cron: "30 0 * * *"
   workflow_dispatch:
 
 permissions:
