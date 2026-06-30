@@ -304,7 +304,7 @@ def render_post(x, today, index):
         f"source: {json.dumps(x['source'], ensure_ascii=False)}",
         f"sourceUrl: {json.dumps(source_url, ensure_ascii=False)}",
         f"tags: {yaml_list(tags)}",
-        f"importance: {json.dumps('매일 10:00 KST 자동 수집 · 확장 요약', ensure_ascii=False)}",
+        f"importance: {json.dumps('매일 09:30 KST 자동 수집 · 확장 요약', ensure_ascii=False)}",
         "---", "",
     ]
     if is_paper:
