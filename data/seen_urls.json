@@ -1,466 +1,70 @@
 [
-  {
-    "hash": "ba6d231ea84de292",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260622014300.htm",
-    "title": "Millions take omega-3 fish oil for brain health but a new study found no benefit",
-    "source": "ScienceDaily",
-    "kind": "popular",
-    "added_at": "2026-06-29T21:00:00+09:00"
-  },
-  {
-    "hash": "fcc31026393c31bd",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260621060307.htm",
-    "title": "These fat-filled brain cells may be making multiple sclerosis worse",
-    "source": "ScienceDaily",
-    "kind": "popular",
-    "added_at": "2026-06-29T21:00:00+09:00"
-  },
-  {
-    "hash": "b9cc8ad05e107ded",
-    "url": "https://neurosciencenews.com/hearing-aids-epilepsy-dementia-30956",
-    "title": "Hearing Aids Linked to 23% Lower Dementia Risk in Epilepsy",
-    "source": "Neuroscience News",
-    "kind": "popular",
-    "added_at": "2026-06-29T21:00:00+09:00"
-  },
-  {
-    "hash": "84109eeea64cab20",
-    "url": "https://medicalxpress.com/news/2026-01-widely-pesticide-linked-parkinson.html",
-    "title": "Widely used pesticide linked to more than doubled Parkinson's risk",
-    "source": "Medical Xpress",
-    "kind": "popular",
-    "added_at": "2026-06-29T21:00:00+09:00"
-  },
-  {
-    "hash": "d9aca2e6863b3b2e",
-    "url": "https://www.thetransmitter.org/artificial-intelligence/ai-cant-solve-the-brain-without-data-that-fit-together",
-    "title": "AI can’t solve the brain without data that fit together",
-    "source": "The Transmitter",
-    "kind": "popular",
-    "added_at": "2026-06-29T21:00:00+09:00"
-  },
-  {
-    "hash": "67111063b700ba3f",
-    "url": "https://www.nature.com/articles/s41593-026-02342-9",
-    "title": "Interpretable abstractions of artificial neural networks predict behavior and neural activity during human information gathering",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-06-29T21:00:00+09:00"
-  },
-  {
-    "hash": "8f7105c934d128f1",
-    "url": "https://www.nature.com/articles/s41593-026-02331-y",
-    "title": "Conditioned accumbal dopamine transients forecast individual preference for drug versus natural rewards and compulsive behavior",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-06-29T21:00:00+09:00"
-  },
-  {
-    "hash": "3dff28339d7bf7b0",
-    "url": "https://www.nature.com/articles/s41593-026-02320-1",
-    "title": "The mitochondrial unfolded protein response in human microglia disrupts neuronal–glial communication and promotes senescence",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-06-29T21:00:00+09:00"
-  },
-  {
-    "hash": "7aa94ba4053277de",
-    "url": "https://www.nature.com/articles/s41593-026-02353-6",
-    "title": "Striatal control of amygdalar acetylcholine release during salience-associated processing",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-06-29T21:00:00+09:00"
-  },
-  {
-    "hash": "ba565d396c1caf4c",
-    "url": "https://www.nature.com/articles/s41593-026-02333-w",
-    "title": "Learning shapes neural geometry in the primate prefrontal cortex",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-06-29T21:00:00+09:00"
-  },
-  {
-    "hash": "c2efb5589ec2b605",
-    "url": "https://www.sciencedaily.com/releases/2026/05/260515234803.htm",
-    "title": "Scientists reversed memory loss by recharging the brain’s tiny engines",
-    "source": "ScienceDaily Neuroscience",
-    "kind": "popular",
-    "added_at": "2026-06-30T14:04:54+09:00"
-  },
-  {
-    "hash": "c4f562aa652198d3",
-    "url": "https://www.sciencedaily.com/releases/2026/05/260526233433.htm",
-    "title": "Scientists create supercharged vitamin K that helps the brain heal itself",
-    "source": "ScienceDaily Neuroscience",
-    "kind": "popular",
-    "added_at": "2026-06-30T14:04:54+09:00"
-  },
-  {
-    "hash": "631fc8e6f8011f97",
-    "url": "https://www.thetransmitter.org/metabolism/fructose-silences-hunger-driving-neurons-less-than-glucose-does",
-    "title": "Fructose silences hunger-driving neurons less than glucose does",
-    "source": "The Transmitter",
-    "kind": "popular",
-    "added_at": "2026-06-30T14:04:54+09:00"
-  },
-  {
-    "hash": "50cf079decce93af",
-    "url": "https://www.thetransmitter.org/locomotion/remembering-avis-h-cohen-who-bridged-disciplines-to-decode-lamprey-locomotion",
-    "title": "Remembering Avis H. Cohen, who bridged disciplines to decode lamprey locomotion",
-    "source": "The Transmitter",
-    "kind": "popular",
-    "added_at": "2026-06-30T14:04:54+09:00"
-  },
-  {
-    "hash": "2e25a585eadb7222",
-    "url": "https://www.mk.co.kr/news/it/12076419",
-    "title": "뇌-컴퓨터 인터페이스 경쟁 뛰어든다...한국BCI협회 공식 출범",
-    "source": "BioIN News",
-    "kind": "popular",
-    "added_at": "2026-06-30T14:04:54+09:00"
-  },
-  {
-    "hash": "20d455b21c880ac4",
-    "url": "https://www.nature.com/articles/s41593-026-02303-2",
-    "title": "Noninvasive decoding of typed sentences from human brain activity",
-    "source": "Nature Neuroscience Current Issue",
-    "kind": "paper",
-    "added_at": "2026-06-30T14:04:54+09:00"
-  },
-  {
-    "hash": "5a5c8d420f33fa1f",
-    "url": "https://www.nature.com/articles/s41593-026-02347-4",
-    "title": "DBS: from neuromodulation to neuroremodelling",
-    "source": "Nature Neuroscience Current Issue",
-    "kind": "paper",
-    "added_at": "2026-06-30T14:04:54+09:00"
-  },
-  {
-    "hash": "4bbb79a32a19d570",
-    "url": "https://www.nature.com/articles/s41593-026-02264-6",
-    "title": "Mitochondrial stress response drives microglial senescence",
-    "source": "Nature Neuroscience Current Issue",
-    "kind": "paper",
-    "added_at": "2026-06-30T14:04:54+09:00"
-  },
-  {
-    "hash": "a17c9e30b4f62d88",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260630020521.htm",
-    "title": "Scientists may have finally found how Alzheimer's spreads through the brain",
-    "source": "ScienceDaily / University of Utah Health",
-    "kind": "popular",
-    "added_at": "2026-07-01T09:31:04+09:00"
-  },
-  {
-    "hash": "c8d91f4a0e77b236",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260624025514.htm",
-    "title": "Brain activity under anesthesia challenges what we know about consciousness",
-    "source": "ScienceDaily / Baylor College of Medicine",
-    "kind": "popular",
-    "added_at": "2026-07-01T09:31:04+09:00"
-  },
-  {
-    "hash": "f1b2a0d7c9e43651",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260623083116.htm",
-    "title": "This common vitamin deficiency can mimic normal aging",
-    "source": "ScienceDaily / The Conversation",
-    "kind": "popular",
-    "added_at": "2026-07-01T09:31:04+09:00"
-  },
-  {
-    "hash": "d42b8ea16c0f93a5",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260625060159.htm",
-    "title": "They knew the pill was fake but their memory still improved",
-    "source": "ScienceDaily / Universita Cattolica del Sacro Cuore",
-    "kind": "popular",
-    "added_at": "2026-07-01T09:31:04+09:00"
-  },
-  {
-    "hash": "e90c7351ab48d216",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260624025426.htm",
-    "title": "Scientists discover ancient brain cells that help block distractions",
-    "source": "ScienceDaily / Johns Hopkins University",
-    "kind": "popular",
-    "added_at": "2026-07-01T09:31:04+09:00"
-  },
-  {
-    "hash": "b5e721d9063c4a18",
-    "url": "https://www.nature.com/articles/s41593-026-02344-7",
-    "title": "Connectomic evidence that ordered activity drives neuromuscular network formation",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-01T09:31:04+09:00"
-  },
-  {
-    "hash": "7ce01f3b9a64d508",
-    "url": "https://www.nature.com/articles/s41593-026-02339-4",
-    "title": "Voltage dynamics of cortical dendrites in vivo",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-01T09:31:04+09:00"
-  },
-  {
-    "hash": "8aa4f02d3b71ce65",
-    "url": "https://www.nature.com/articles/s41593-026-02332-x",
-    "title": "Tryptamine from wake-active monoaminergic neurons regulates sleep homeostasis",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-01T09:31:04+09:00"
-  },
-  {
-    "hash": "5f8d2c7e01b94a63",
-    "url": "https://www.nature.com/articles/s41593-026-02326-9",
-    "title": "Cerebrovascular vulnerability and fibrosis in human brain aneurysms",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-01T09:31:04+09:00"
-  },
-  {
-    "hash": "19c6a4de82b0f573",
-    "url": "https://www.nature.com/articles/s41593-026-02316-x",
-    "title": "Single-cell multi-omic atlas and morphogen screening informs midbrain and hindbrain organoid engineering",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-01T09:31:04+09:00"
-  },
-  {
-    "hash": "98aa7f10c2e6b3d4",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260623014004.htm",
-    "title": "A surprising brain discovery is forcing scientists to rethink movement disorders",
-    "source": "ScienceDaily / Virginia Tech",
-    "kind": "popular",
-    "added_at": "2026-07-01T16:24:00+09:00"
-  },
-  {
-    "hash": "2f0ac9d1e73b58aa",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260626030428.htm",
-    "title": "Scientists discover a surprising link between vitamin C and brain health",
-    "source": "ScienceDaily / PLOS",
-    "kind": "popular",
-    "added_at": "2026-07-01T16:24:00+09:00"
-  },
-  {
-    "hash": "6b91d84e20c7a5f3",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260625014811.htm",
-    "title": "Modern neuroscience is rediscovering an idea Freud had 130 years ago",
-    "source": "ScienceDaily / University of Oslo",
-    "kind": "popular",
-    "added_at": "2026-07-01T16:24:00+09:00"
-  },
-  {
-    "hash": "5e172ad49c0b8f66",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260618041524.htm",
-    "title": "Scientists discover how a single cell builds a brain with 170 billion cells",
-    "source": "ScienceDaily / Cold Spring Harbor Laboratory",
-    "kind": "popular",
-    "added_at": "2026-07-01T16:24:00+09:00"
-  },
-  {
-    "hash": "c734a8e9051b2d60",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260619020514.htm",
-    "title": "New brain study reveals speech learning works differently than we thought",
-    "source": "ScienceDaily / McGill University",
-    "kind": "popular",
-    "added_at": "2026-07-01T16:24:00+09:00"
-  },
-  {
-    "hash": "f3b9c7a1e44d2a90",
-    "url": "https://www.nature.com/articles/s41593-026-02364-3",
-    "title": "Goal-directed hippocampal theta sweeps during memory-guided navigation",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-01T16:24:00+09:00"
-  },
-  {
-    "hash": "9ad4e6120bc7f358",
-    "url": "https://www.nature.com/articles/s41593-026-02365-2",
-    "title": "Hippocampal theta sweeps indicate goal direction during navigation",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-01T16:24:00+09:00"
-  },
-  {
-    "hash": "a0f58e2c913bd746",
-    "url": "https://www.nature.com/articles/s41593-026-02345-6",
-    "title": "Human hippocampal ripples tune cortical responses based on predicted uncertainty",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-01T16:24:00+09:00"
-  },
-  {
-    "hash": "4c9e1b76a0fd2358",
-    "url": "https://www.nature.com/articles/s41593-026-02341-w",
-    "title": "A fatty acid amide activates myeloid cells and improves neurovascular outcomes in retinal degeneration",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-01T16:24:00+09:00"
-  },
-  {
-    "hash": "1d6a9f34c7b02e85",
-    "url": "https://www.nature.com/articles/s41593-026-02330-z",
-    "title": "Striatal pathways dissociably control action counting and goal-directed steering",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-01T16:24:00+09:00"
-  },
-  {
-    "hash": "9c0e7a21d5b03f14",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260620100432.htm",
-    "title": "Tubulin prevents toxic brain protein clumps linked to Alzheimer's and Parkinson's",
-    "source": "ScienceDaily / Baylor College of Medicine",
-    "kind": "popular",
-    "added_at": "2026-07-02T09:30:00+09:00"
-  },
-  {
-    "hash": "2b70a5f1c984d63e",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260620100422.htm",
-    "title": "Scientists discover neurons must break their DNA to build the brain",
-    "source": "ScienceDaily / Kyoto University",
-    "kind": "popular",
-    "added_at": "2026-07-02T09:30:00+09:00"
-  },
-  {
-    "hash": "7fae91c0642d58b3",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260619020506.htm",
-    "title": "Scientists reprogram brain immune cells to fight Alzheimer's",
-    "source": "ScienceDaily / Universidad Miguel Hernandez de Elche",
-    "kind": "popular",
-    "added_at": "2026-07-02T09:30:00+09:00"
-  },
-  {
-    "hash": "14b6dc8e0f753a92",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260626124704.htm",
-    "title": "Great ape laughter reveals a hidden origin of human speech",
-    "source": "ScienceDaily / University of Warwick",
-    "kind": "popular",
-    "added_at": "2026-07-02T09:30:00+09:00"
-  },
-  {
-    "hash": "63ae0d2c9184fb75",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260622091518.htm",
-    "title": "New vitamin B12 therapy shows promise against deadly brain cancer",
-    "source": "ScienceDaily / Impact Journals LLC",
-    "kind": "popular",
-    "added_at": "2026-07-02T09:30:00+09:00"
-  },
-  {
-    "hash": "8e415c03bd729a1f",
-    "url": "https://www.nature.com/articles/s41593-026-02325-w",
-    "title": "Red-shifted GRAB acetylcholine sensors for multiplex imaging in vivo",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-02T09:30:00+09:00"
-  },
-  {
-    "hash": "bc2a04d991e7f36a",
-    "url": "https://www.nature.com/articles/s41593-026-02289-x",
-    "title": "Cerebellar aging is spatially heterogeneous and supports cognitive resilience in later life",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-02T09:30:00+09:00"
-  },
-  {
-    "hash": "52c4e198b73a0d6f",
-    "url": "https://www.nature.com/articles/s41593-026-02322-z",
-    "title": "Triple-N dataset: large-scale fMRI-guided dense recordings of nonhuman primate neural responses to natural scenes",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-02T09:30:00+09:00"
-  },
-  {
-    "hash": "0fdbab6c83ea5142",
-    "url": "https://www.nature.com/articles/s41593-026-02311-2",
-    "title": "Human learning of noninvasive brain-computer interfaces via manifold geometry",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-02T09:30:00+09:00"
-  },
-  {
-    "hash": "d7a5e41290bc638f",
-    "url": "https://www.nature.com/articles/s41593-026-02318-9",
-    "title": "Induction of cortical on/off periods in awake mice fulfills sleep functions",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-02T09:30:00+09:00"
-  },
-  {
-    "hash": "f0a13c9de472b651",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260622091521.htm",
-    "title": "The real cause of a common stroke may have been missed for decades",
-    "source": "ScienceDaily / University of Edinburgh",
-    "kind": "popular",
-    "added_at": "2026-07-03T09:30:00+09:00"
-  },
-  {
-    "hash": "9b2e54a77c0d18af",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260625014755.htm",
-    "title": "Scientists stunned as bumble bees solve a classic intelligence test",
-    "source": "ScienceDaily / University of Oulu",
-    "kind": "popular",
-    "added_at": "2026-07-03T09:30:00+09:00"
-  },
-  {
-    "hash": "c6d30e9b17a4f82d",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260620100428.htm",
-    "title": "Yale study finds nearly half of older adults improved with age",
-    "source": "ScienceDaily / Yale University",
-    "kind": "popular",
-    "added_at": "2026-07-03T09:30:00+09:00"
-  },
-  {
-    "hash": "a4e97d0c12f638be",
-    "url": "https://www.sciencedaily.com/releases/2026/06/260617032209.htm",
-    "title": "Scientists May Have Found What Really Triggers Alzheimer’s Disease",
-    "source": "ScienceDaily / University of California - Riverside",
-    "kind": "popular",
-    "added_at": "2026-07-03T09:30:00+09:00"
-  },
-  {
-    "hash": "d1b6c92a0ef43a58",
-    "url": "https://www.thetransmitter.org/electrophysiology/recording-warning-common-brain-signal-may-be-misunderstood/",
-    "title": "Recording warning: Common brain signal may be misunderstood",
-    "source": "The Transmitter",
-    "kind": "popular",
-    "added_at": "2026-07-03T09:30:00+09:00"
-  },
-  {
-    "hash": "6d4b908cfe21a7b3",
-    "url": "https://www.nature.com/articles/s41593-026-02266-4",
-    "title": "Aberrant tau accumulation caused by MAPT mutations induces early pathological changes in axonal transport that are rescued by p38α inhibition",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-03T09:30:00+09:00"
-  },
-  {
-    "hash": "b8e2a51d9347c06f",
-    "url": "https://www.nature.com/articles/s41593-026-02315-y",
-    "title": "The representational geometry of emotional states in basolateral amygdala",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-03T09:30:00+09:00"
-  },
-  {
-    "hash": "0c71f6e2a5d9b438",
-    "url": "https://www.nature.com/articles/s41593-026-02313-0",
-    "title": "A brainstem pathway underlying vagal modulation of somatic pain and affective states",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-03T09:30:00+09:00"
-  },
-  {
-    "hash": "e37a2fc58b10d94a",
-    "url": "https://www.nature.com/articles/s41593-026-02321-0",
-    "title": "Microbial reactivation of host androgens directs enteric neuronal regulation of gut motility",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-03T09:30:00+09:00"
-  },
-  {
-    "hash": "7f29c0d1a683be45",
-    "url": "https://www.nature.com/articles/s41593-026-02301-4",
-    "title": "Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks",
-    "source": "Nature Neuroscience",
-    "kind": "paper",
-    "added_at": "2026-07-03T09:30:00+09:00"
-  }
+  {"hash":"ba6d231ea84de292","url":"https://www.sciencedaily.com/releases/2026/06/260622014300.htm","title":"Millions take omega-3 fish oil for brain health but a new study found no benefit","source":"ScienceDaily","kind":"popular","added_at":"2026-06-29T21:00:00+09:00"},
+  {"hash":"fcc31026393c31bd","url":"https://www.sciencedaily.com/releases/2026/06/260621060307.htm","title":"These fat-filled brain cells may be making multiple sclerosis worse","source":"ScienceDaily","kind":"popular","added_at":"2026-06-29T21:00:00+09:00"},
+  {"hash":"b9cc8ad05e107ded","url":"https://neurosciencenews.com/hearing-aids-epilepsy-dementia-30956","title":"Hearing Aids Linked to 23% Lower Dementia Risk in Epilepsy","source":"Neuroscience News","kind":"popular","added_at":"2026-06-29T21:00:00+09:00"},
+  {"hash":"84109eeea64cab20","url":"https://medicalxpress.com/news/2026-01-widely-pesticide-linked-parkinson.html","title":"Widely used pesticide linked to more than doubled Parkinson's risk","source":"Medical Xpress","kind":"popular","added_at":"2026-06-29T21:00:00+09:00"},
+  {"hash":"d9aca2e6863b3b2e","url":"https://www.thetransmitter.org/artificial-intelligence/ai-cant-solve-the-brain-without-data-that-fit-together","title":"AI can’t solve the brain without data that fit together","source":"The Transmitter","kind":"popular","added_at":"2026-06-29T21:00:00+09:00"},
+  {"hash":"67111063b700ba3f","url":"https://www.nature.com/articles/s41593-026-02342-9","title":"Interpretable abstractions of artificial neural networks predict behavior and neural activity during human information gathering","source":"Nature Neuroscience","kind":"paper","added_at":"2026-06-29T21:00:00+09:00"},
+  {"hash":"8f7105c934d128f1","url":"https://www.nature.com/articles/s41593-026-02331-y","title":"Conditioned accumbal dopamine transients forecast individual preference for drug versus natural rewards and compulsive behavior","source":"Nature Neuroscience","kind":"paper","added_at":"2026-06-29T21:00:00+09:00"},
+  {"hash":"3dff28339d7bf7b0","url":"https://www.nature.com/articles/s41593-026-02320-1","title":"The mitochondrial unfolded protein response in human microglia disrupts neuronal–glial communication and promotes senescence","source":"Nature Neuroscience","kind":"paper","added_at":"2026-06-29T21:00:00+09:00"},
+  {"hash":"7aa94ba4053277de","url":"https://www.nature.com/articles/s41593-026-02353-6","title":"Striatal control of amygdalar acetylcholine release during salience-associated processing","source":"Nature Neuroscience","kind":"paper","added_at":"2026-06-29T21:00:00+09:00"},
+  {"hash":"ba565d396c1caf4c","url":"https://www.nature.com/articles/s41593-026-02333-w","title":"Learning shapes neural geometry in the primate prefrontal cortex","source":"Nature Neuroscience","kind":"paper","added_at":"2026-06-29T21:00:00+09:00"},
+  {"hash":"c2efb5589ec2b605","url":"https://www.sciencedaily.com/releases/2026/05/260515234803.htm","title":"Scientists reversed memory loss by recharging the brain’s tiny engines","source":"ScienceDaily Neuroscience","kind":"popular","added_at":"2026-06-30T14:04:54+09:00"},
+  {"hash":"c4f562aa652198d3","url":"https://www.sciencedaily.com/releases/2026/05/260526233433.htm","title":"Scientists create supercharged vitamin K that helps the brain heal itself","source":"ScienceDaily Neuroscience","kind":"popular","added_at":"2026-06-30T14:04:54+09:00"},
+  {"hash":"631fc8e6f8011f97","url":"https://www.thetransmitter.org/metabolism/fructose-silences-hunger-driving-neurons-less-than-glucose-does","title":"Fructose silences hunger-driving neurons less than glucose does","source":"The Transmitter","kind":"popular","added_at":"2026-06-30T14:04:54+09:00"},
+  {"hash":"50cf079decce93af","url":"https://www.thetransmitter.org/locomotion/remembering-avis-h-cohen-who-bridged-disciplines-to-decode-lamprey-locomotion","title":"Remembering Avis H. Cohen, who bridged disciplines to decode lamprey locomotion","source":"The Transmitter","kind":"popular","added_at":"2026-06-30T14:04:54+09:00"},
+  {"hash":"2e25a585eadb7222","url":"https://www.mk.co.kr/news/it/12076419","title":"뇌-컴퓨터 인터페이스 경쟁 뛰어든다...한국BCI협회 공식 출범","source":"BioIN News","kind":"popular","added_at":"2026-06-30T14:04:54+09:00"},
+  {"hash":"20d455b21c880ac4","url":"https://www.nature.com/articles/s41593-026-02303-2","title":"Noninvasive decoding of typed sentences from human brain activity","source":"Nature Neuroscience Current Issue","kind":"paper","added_at":"2026-06-30T14:04:54+09:00"},
+  {"hash":"5a5c8d420f33fa1f","url":"https://www.nature.com/articles/s41593-026-02347-4","title":"DBS: from neuromodulation to neuroremodelling","source":"Nature Neuroscience Current Issue","kind":"paper","added_at":"2026-06-30T14:04:54+09:00"},
+  {"hash":"4bbb79a32a19d570","url":"https://www.nature.com/articles/s41593-026-02264-6","title":"Mitochondrial stress response drives microglial senescence","source":"Nature Neuroscience Current Issue","kind":"paper","added_at":"2026-06-30T14:04:54+09:00"},
+  {"hash":"a17c9e30b4f62d88","url":"https://www.sciencedaily.com/releases/2026/06/260630020521.htm","title":"Scientists may have finally found how Alzheimer's spreads through the brain","source":"ScienceDaily / University of Utah Health","kind":"popular","added_at":"2026-07-01T09:31:04+09:00"},
+  {"hash":"c8d91f4a0e77b236","url":"https://www.sciencedaily.com/releases/2026/06/260624025514.htm","title":"Brain activity under anesthesia challenges what we know about consciousness","source":"ScienceDaily / Baylor College of Medicine","kind":"popular","added_at":"2026-07-01T09:31:04+09:00"},
+  {"hash":"f1b2a0d7c9e43651","url":"https://www.sciencedaily.com/releases/2026/06/260623083116.htm","title":"This common vitamin deficiency can mimic normal aging","source":"ScienceDaily / The Conversation","kind":"popular","added_at":"2026-07-01T09:31:04+09:00"},
+  {"hash":"d42b8ea16c0f93a5","url":"https://www.sciencedaily.com/releases/2026/06/260625060159.htm","title":"They knew the pill was fake but their memory still improved","source":"ScienceDaily / Universita Cattolica del Sacro Cuore","kind":"popular","added_at":"2026-07-01T09:31:04+09:00"},
+  {"hash":"e90c7351ab48d216","url":"https://www.sciencedaily.com/releases/2026/06/260624025426.htm","title":"Scientists discover ancient brain cells that help block distractions","source":"ScienceDaily / Johns Hopkins University","kind":"popular","added_at":"2026-07-01T09:31:04+09:00"},
+  {"hash":"b5e721d9063c4a18","url":"https://www.nature.com/articles/s41593-026-02344-7","title":"Connectomic evidence that ordered activity drives neuromuscular network formation","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-01T09:31:04+09:00"},
+  {"hash":"7ce01f3b9a64d508","url":"https://www.nature.com/articles/s41593-026-02339-4","title":"Voltage dynamics of cortical dendrites in vivo","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-01T09:31:04+09:00"},
+  {"hash":"8aa4f02d3b71ce65","url":"https://www.nature.com/articles/s41593-026-02332-x","title":"Tryptamine from wake-active monoaminergic neurons regulates sleep homeostasis","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-01T09:31:04+09:00"},
+  {"hash":"5f8d2c7e01b94a63","url":"https://www.nature.com/articles/s41593-026-02326-9","title":"Cerebrovascular vulnerability and fibrosis in human brain aneurysms","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-01T09:31:04+09:00"},
+  {"hash":"19c6a4de82b0f573","url":"https://www.nature.com/articles/s41593-026-02316-x","title":"Single-cell multi-omic atlas and morphogen screening informs midbrain and hindbrain organoid engineering","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-01T09:31:04+09:00"},
+  {"hash":"98aa7f10c2e6b3d4","url":"https://www.sciencedaily.com/releases/2026/06/260623014004.htm","title":"A surprising brain discovery is forcing scientists to rethink movement disorders","source":"ScienceDaily / Virginia Tech","kind":"popular","added_at":"2026-07-01T16:24:00+09:00"},
+  {"hash":"2f0ac9d1e73b58aa","url":"https://www.sciencedaily.com/releases/2026/06/260626030428.htm","title":"Scientists discover a surprising link between vitamin C and brain health","source":"ScienceDaily / PLOS","kind":"popular","added_at":"2026-07-01T16:24:00+09:00"},
+  {"hash":"6b91d84e20c7a5f3","url":"https://www.sciencedaily.com/releases/2026/06/260625014811.htm","title":"Modern neuroscience is rediscovering an idea Freud had 130 years ago","source":"ScienceDaily / University of Oslo","kind":"popular","added_at":"2026-07-01T16:24:00+09:00"},
+  {"hash":"5e172ad49c0b8f66","url":"https://www.sciencedaily.com/releases/2026/06/260618041524.htm","title":"Scientists discover how a single cell builds a brain with 170 billion cells","source":"ScienceDaily / Cold Spring Harbor Laboratory","kind":"popular","added_at":"2026-07-01T16:24:00+09:00"},
+  {"hash":"c734a8e9051b2d60","url":"https://www.sciencedaily.com/releases/2026/06/260619020514.htm","title":"New brain study reveals speech learning works differently than we thought","source":"ScienceDaily / McGill University","kind":"popular","added_at":"2026-07-01T16:24:00+09:00"},
+  {"hash":"f3b9c7a1e44d2a90","url":"https://www.nature.com/articles/s41593-026-02364-3","title":"Goal-directed hippocampal theta sweeps during memory-guided navigation","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-01T16:24:00+09:00"},
+  {"hash":"9ad4e6120bc7f358","url":"https://www.nature.com/articles/s41593-026-02365-2","title":"Hippocampal theta sweeps indicate goal direction during navigation","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-01T16:24:00+09:00"},
+  {"hash":"a0f58e2c913bd746","url":"https://www.nature.com/articles/s41593-026-02345-6","title":"Human hippocampal ripples tune cortical responses based on predicted uncertainty","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-01T16:24:00+09:00"},
+  {"hash":"4c9e1b76a0fd2358","url":"https://www.nature.com/articles/s41593-026-02341-w","title":"A fatty acid amide activates myeloid cells and improves neurovascular outcomes in retinal degeneration","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-01T16:24:00+09:00"},
+  {"hash":"1d6a9f34c7b02e85","url":"https://www.nature.com/articles/s41593-026-02330-z","title":"Striatal pathways dissociably control action counting and goal-directed steering","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-01T16:24:00+09:00"},
+  {"hash":"9c0e7a21d5b03f14","url":"https://www.sciencedaily.com/releases/2026/06/260620100432.htm","title":"Tubulin prevents toxic brain protein clumps linked to Alzheimer's and Parkinson's","source":"ScienceDaily / Baylor College of Medicine","kind":"popular","added_at":"2026-07-02T09:30:00+09:00"},
+  {"hash":"2b70a5f1c984d63e","url":"https://www.sciencedaily.com/releases/2026/06/260620100422.htm","title":"Scientists discover neurons must break their DNA to build the brain","source":"ScienceDaily / Kyoto University","kind":"popular","added_at":"2026-07-02T09:30:00+09:00"},
+  {"hash":"7fae91c0642d58b3","url":"https://www.sciencedaily.com/releases/2026/06/260619020506.htm","title":"Scientists reprogram brain immune cells to fight Alzheimer's","source":"ScienceDaily / Universidad Miguel Hernandez de Elche","kind":"popular","added_at":"2026-07-02T09:30:00+09:00"},
+  {"hash":"14b6dc8e0f753a92","url":"https://www.sciencedaily.com/releases/2026/06/260626124704.htm","title":"Great ape laughter reveals a hidden origin of human speech","source":"ScienceDaily / University of Warwick","kind":"popular","added_at":"2026-07-02T09:30:00+09:00"},
+  {"hash":"63ae0d2c9184fb75","url":"https://www.sciencedaily.com/releases/2026/06/260622091518.htm","title":"New vitamin B12 therapy shows promise against deadly brain cancer","source":"ScienceDaily / Impact Journals LLC","kind":"popular","added_at":"2026-07-02T09:30:00+09:00"},
+  {"hash":"8e415c03bd729a1f","url":"https://www.nature.com/articles/s41593-026-02325-w","title":"Red-shifted GRAB acetylcholine sensors for multiplex imaging in vivo","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-02T09:30:00+09:00"},
+  {"hash":"bc2a04d991e7f36a","url":"https://www.nature.com/articles/s41593-026-02289-x","title":"Cerebellar aging is spatially heterogeneous and supports cognitive resilience in later life","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-02T09:30:00+09:00"},
+  {"hash":"52c4e198b73a0d6f","url":"https://www.nature.com/articles/s41593-026-02322-z","title":"Triple-N dataset: large-scale fMRI-guided dense recordings of nonhuman primate neural responses to natural scenes","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-02T09:30:00+09:00"},
+  {"hash":"0fdbab6c83ea5142","url":"https://www.nature.com/articles/s41593-026-02311-2","title":"Human learning of noninvasive brain-computer interfaces via manifold geometry","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-02T09:30:00+09:00"},
+  {"hash":"d7a5e41290bc638f","url":"https://www.nature.com/articles/s41593-026-02318-9","title":"Induction of cortical on/off periods in awake mice fulfills sleep functions","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-02T09:30:00+09:00"},
+  {"hash":"f0a13c9de472b651","url":"https://www.sciencedaily.com/releases/2026/06/260622091521.htm","title":"The real cause of a common stroke may have been missed for decades","source":"ScienceDaily / University of Edinburgh","kind":"popular","added_at":"2026-07-03T09:30:00+09:00"},
+  {"hash":"9b2e54a77c0d18af","url":"https://www.sciencedaily.com/releases/2026/06/260625014755.htm","title":"Scientists stunned as bumble bees solve a classic intelligence test","source":"ScienceDaily / University of Oulu","kind":"popular","added_at":"2026-07-03T09:30:00+09:00"},
+  {"hash":"c6d30e9b17a4f82d","url":"https://www.sciencedaily.com/releases/2026/06/260620100428.htm","title":"Yale study finds nearly half of older adults improved with age","source":"ScienceDaily / Yale University","kind":"popular","added_at":"2026-07-03T09:30:00+09:00"},
+  {"hash":"a4e97d0c12f638be","url":"https://www.sciencedaily.com/releases/2026/06/260617032209.htm","title":"Scientists May Have Found What Really Triggers Alzheimer’s Disease","source":"ScienceDaily / University of California - Riverside","kind":"popular","added_at":"2026-07-03T09:30:00+09:00"},
+  {"hash":"d1b6c92a0ef43a58","url":"https://www.thetransmitter.org/electrophysiology/recording-warning-common-brain-signal-may-be-misunderstood/","title":"Recording warning: Common brain signal may be misunderstood","source":"The Transmitter","kind":"popular","added_at":"2026-07-03T09:30:00+09:00"},
+  {"hash":"6d4b908cfe21a7b3","url":"https://www.nature.com/articles/s41593-026-02266-4","title":"Aberrant tau accumulation caused by MAPT mutations induces early pathological changes in axonal transport that are rescued by p38α inhibition","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-03T09:30:00+09:00"},
+  {"hash":"b8e2a51d9347c06f","url":"https://www.nature.com/articles/s41593-026-02315-y","title":"The representational geometry of emotional states in basolateral amygdala","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-03T09:30:00+09:00"},
+  {"hash":"0c71f6e2a5d9b438","url":"https://www.nature.com/articles/s41593-026-02313-0","title":"A brainstem pathway underlying vagal modulation of somatic pain and affective states","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-03T09:30:00+09:00"},
+  {"hash":"e37a2fc58b10d94a","url":"https://www.nature.com/articles/s41593-026-02321-0","title":"Microbial reactivation of host androgens directs enteric neuronal regulation of gut motility","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-03T09:30:00+09:00"},
+  {"hash":"7f29c0d1a683be45","url":"https://www.nature.com/articles/s41593-026-02301-4","title":"Deep brain stimulation induces white matter remodeling and functional changes to brain-wide networks","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-03T09:30:00+09:00"},
+  {"hash":"a8f1d2c3b4e59607","url":"https://www.sciencedaily.com/releases/2026/06/260626124701.htm","title":"Scientists may have finally found how Alzheimer's kills brain cells","source":"ScienceDaily / King's College London","kind":"popular","added_at":"2026-07-05T09:30:00+09:00"},
+  {"hash":"b9e2c3d4a5f60718","url":"https://www.sciencedaily.com/releases/2026/06/260626030433.htm","title":"Scientists discover the deep sleep circuit that builds muscle, burns fat, and boosts the brain","source":"ScienceDaily / University of California - Berkeley","kind":"popular","added_at":"2026-07-05T09:30:00+09:00"},
+  {"hash":"c0f3d4e5b6a71829","url":"https://www.sciencedaily.com/releases/2026/06/260626030437.htm","title":"Drinking to cope with stress may permanently rewire your brain","source":"ScienceDaily / University of Massachusetts Amherst","kind":"popular","added_at":"2026-07-05T09:30:00+09:00"},
+  {"hash":"d1a4e5f6c7b82930","url":"https://www.sciencedaily.com/releases/2026/06/260626125709.htm","title":"Scientists discover why some brains resist Alzheimer's","source":"ScienceDaily / Netherlands Institute for Neuroscience - KNAW","kind":"popular","added_at":"2026-07-05T09:30:00+09:00"},
+  {"hash":"e2b5f6a7d8c93041","url":"https://medicalxpress.com/news/2026-07-memories-childhood-trauma-stable-children.html","title":"Memories of childhood trauma remain stable over time but change more often in children than adults","source":"Medical Xpress / King's College London","kind":"popular","added_at":"2026-07-05T09:30:00+09:00"},
+  {"hash":"f3c6a7b8e9d04152","url":"https://www.nature.com/articles/s41593-026-02297-x","title":"Neuroproteasomes regulate endogenous tau paired helical filament formation in an APOE genotype- and age-dependent manner","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-05T09:30:00+09:00"},
+  {"hash":"04d7b8c9fae15263","url":"https://www.nature.com/articles/s41593-026-02317-w","title":"Microglial mitochondria transfer to astrocytes via GPNMB-enriched extracellular vesicles alleviates cognitive deficits in tauopathy mice","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-05T09:30:00+09:00"},
+  {"hash":"15e8c9dafb026374","url":"https://www.nature.com/articles/s41593-026-02314-z","title":"Low-dimensional population dynamics in the brainstem gate REM sleep","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-05T09:30:00+09:00"},
+  {"hash":"26f9daeb0c137485","url":"https://www.nature.com/articles/s41593-026-02285-1","title":"Fixation duration on natural scenes is explained by memory encoding not processing demand","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-05T09:30:00+09:00"},
+  {"hash":"37a0ebfc1d248596","url":"https://www.nature.com/articles/s41593-026-02299-9","title":"Tau aggregates cause reactivation of transposable DNA elements, leading to Z-RNA–ZBP1-mediated neuronal death","source":"Nature Neuroscience","kind":"paper","added_at":"2026-07-05T09:30:00+09:00"}
 ]
