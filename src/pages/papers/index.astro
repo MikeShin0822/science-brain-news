@@ -6,11 +6,19 @@ const items = await getNewsByCategory('논문');
 ---
 <BaseLayout title="논문 | Science Brain News">
   <section class="container hero">
-    <span class="kicker">Research Papers</span>
-    <h1>논문 읽기.</h1>
-    <p class="lead">원문 연구를 요약과 링크 중심으로 정리합니다.</p>
+    <span class="kicker">RESEARCH PAPERS</span>
+    <h1>논문을 읽는<br />차분한 방법.</h1>
+    <p class="lead">핵심 결과뿐 아니라 연구 설계, 해석의 범위와 남은 질문까지 함께 살펴봅니다.</p>
   </section>
-  <section class="container">
+
+  <section class="container section">
+    <div class="section-head">
+      <div>
+        <span class="section-label">ARCHIVE</span>
+        <h2>논문 해설 {items.length}개</h2>
+        <p>최신 글부터 시간순으로 모았습니다.</p>
+      </div>
+    </div>
     <div class="grid">{items.map((item) => <NewsCard item={item} />)}</div>
   </section>
 </BaseLayout>
