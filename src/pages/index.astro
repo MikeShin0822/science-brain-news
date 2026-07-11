@@ -5,40 +5,112 @@ import { getNewsItems } from '../utils/news';
 
 const items = await getNewsItems();
 const latest = items.slice(0, 10);
+const featured = latest[0];
+const restLatest = latest.slice(1);
 const brain = items.filter((item) => item.category === '뇌과학').slice(0, 3);
 const life = items.filter((item) => item.category === '생명과학').slice(0, 3);
 const papers = items.filter((item) => item.category === '논문').slice(0, 3);
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 const href = (path = '') => `${base}${path.replace(/^\/+/, '')}`;
+const newsCount = latest.filter((item) => item.category !== '논문').length;
+const paperCount = latest.filter((item) => item.category === '논문').length;
 ---
 <BaseLayout title="Science Brain News">
-  <section class="container hero">
-    <span class="kicker">Brain · Life Science · Research</span>
-    <h1>뇌과학·생명과학 뉴스 큐레이션.</h1>
-    <p class="lead">연구와 과학 뉴스를 선별해 핵심만 짧게 정리합니다.</p>
-    <div class="hero-actions">
-      <a class="button primary" href="#latest">최신 뉴스 보기</a>
-      <a class="button" href={href('rss.xml')}>RSS 구독</a>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <span class="kicker">SCIENCE BRIEFING · UPDATED DAILY</span>
+        <h1>복잡한 연구를,<br /><em>읽히는 한국어</em>로.</h1>
+        <p class="lead">뇌과학과 생명과학의 새 발견을 골라 핵심 결과, 의미, 한계까지 차분하게 정리합니다.</p>
+        <div class="hero-actions">
+          <a class="button primary" href="#latest">오늘의 큐레이션</a>
+          <a class="button" href={href('papers/')}>논문 읽기</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit-dot dot-one"></div>
+        <div class="orbit-dot dot-two"></div>
+        <div class="digest-card">
+          <span>오늘의 읽기</span>
+          <strong>{latest.length}개</strong>
+          <div>
+            <small>뉴스 {newsCount}</small>
+            <small>논문 {paperCount}</small>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <section id="latest" class="container">
-    <div class="section-head"><div><h2>최신 큐레이션 10개</h2><p>새로 추가된 뉴스와 논문입니다.</p></div></div>
-    <div class="grid">{latest.map((item) => <NewsCard item={item} />)}</div>
+  <section id="latest" class="container section">
+    <div class="section-head">
+      <div>
+        <span class="section-label">LATEST</span>
+        <h2>새로 들어온 연구</h2>
+        <p>가장 최근에 추가된 뉴스와 논문 10개입니다.</p>
+      </div>
+    </div>
+
+    {featured && (
+      <a class="featured-card" href={href(`news/${featured.slug}/`)}>
+        <div class="featured-index">01</div>
+        <div class="featured-content">
+          <div class="meta">
+            <span class:list={['badge', featured.category === '뇌과학' ? 'brain' : featured.category === '생명과학' ? 'life' : 'paper']}>{featured.category}</span>
+            <time datetime={featured.date}>{new Date(featured.date).toLocaleDateString('ko-KR')}</time>
+          </div>
+          <h3>{featured.title}</h3>
+          <p>{featured.description}</p>
+          <span class="read-more">첫 글 읽기 <span aria-hidden="true">→</span></span>
+        </div>
+      </a>
+    )}
+
+    <div class="grid latest-grid">
+      {restLatest.map((item) => <NewsCard item={item} />)}
+    </div>
   </section>
 
-  <section class="container">
-    <div class="section-head"><div><h2>뇌과학</h2><p>인지, 수면, 감정, 신경가소성.</p></div><a href={href('brain/')}>더 보기 →</a></div>
-    <div class="grid">{brain.map((item) => <NewsCard item={item} />)}</div>
+  <section class="category-band">
+    <div class="container section">
+      <div class="section-head">
+        <div>
+          <span class="section-label">BRAIN</span>
+          <h2>뇌과학</h2>
+          <p>기억, 감정, 수면, 학습과 신경회로.</p>
+        </div>
+        <a class="section-link" href={href('brain/')}>전체 보기 <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="grid">{brain.map((item) => <NewsCard item={item} />)}</div>
+    </div>
   </section>
 
-  <section class="container">
-    <div class="section-head"><div><h2>생명과학</h2><p>노화, 유전, 면역, 세포, 바이오테크.</p></div><a href={href('life/')}>더 보기 →</a></div>
+  <section class="container section">
+    <div class="section-head">
+      <div>
+        <span class="section-label">LIFE</span>
+        <h2>생명과학</h2>
+        <p>노화, 유전, 면역, 세포와 바이오테크.</p>
+      </div>
+      <a class="section-link" href={href('life/')}>전체 보기 <span aria-hidden="true">→</span></a>
+    </div>
     <div class="grid">{life.map((item) => <NewsCard item={item} />)}</div>
   </section>
 
-  <section class="container">
-    <div class="section-head"><div><h2>논문 읽기</h2><p>원문 연구를 쉬운 해설로 바꿉니다.</p></div><a href={href('papers/')}>더 보기 →</a></div>
-    <div class="grid">{papers.map((item) => <NewsCard item={item} />)}</div>
+  <section class="paper-band">
+    <div class="container section">
+      <div class="section-head">
+        <div>
+          <span class="section-label">PAPERS</span>
+          <h2>논문 읽기</h2>
+          <p>연구 설계와 한계까지 함께 읽습니다.</p>
+        </div>
+        <a class="section-link" href={href('papers/')}>전체 보기 <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="grid">{papers.map((item) => <NewsCard item={item} />)}</div>
+    </div>
   </section>
 </BaseLayout>
