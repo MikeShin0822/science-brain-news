@@ -12,21 +12,58 @@ export async function getStaticPaths() {
 const { item } = Astro.props;
 const { Content } = item;
 const categoryClass = item.category === '뇌과학' ? 'brain' : item.category === '생명과학' ? 'life' : 'paper';
+const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
+const publishedAt = new Date(item.date).toLocaleDateString('ko-KR', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric'
+});
 ---
 <BaseLayout title={`${item.title} | Science Brain News`} description={item.description}>
-  <section class="container prose">
-    <article>
+  <section class="container article-page">
+    <a class="back-link" href={base}><span aria-hidden="true">←</span> 전체 글로 돌아가기</a>
+
+    <header class="article-header">
       <div class="meta">
         <span class={`badge ${categoryClass}`}>{item.category}</span>
-        <span>{new Date(item.date).toLocaleDateString('ko-KR')}</span>
+        <time datetime={item.date}>{publishedAt}</time>
         <span>{item.source}</span>
       </div>
       <h1>{item.title}</h1>
-      <p class="lead">{item.description}</p>
-      <div class="tags">{item.tags?.map((tag) => <span class="tag">#{tag}</span>)}</div>
-      <hr />
-      <Content />
-      {item.sourceUrl && <p><a href={item.sourceUrl} target="_blank" rel="noreferrer">원문 보기</a></p>}
-    </article>
+      <p class="article-deck">{item.description}</p>
+    </header>
+
+    <div class="article-layout">
+      <aside class="article-aside">
+        <dl class="article-facts">
+          <div>
+            <dt>분야</dt>
+            <dd>{item.category}</dd>
+          </div>
+          <div>
+            <dt>출처</dt>
+            <dd>{item.source}</dd>
+          </div>
+          <div>
+            <dt>게시일</dt>
+            <dd>{publishedAt}</dd>
+          </div>
+        </dl>
+
+        <div class="article-tags">
+          {item.tags?.map((tag) => <span>#{tag}</span>)}
+        </div>
+
+        {item.sourceUrl && (
+          <a class="source-button" href={item.sourceUrl} target="_blank" rel="noreferrer">
+            원문 열기 <span aria-hidden="true">↗</span>
+          </a>
+        )}
+      </aside>
+
+      <article class="article-body">
+        <Content />
+      </article>
+    </div>
   </section>
 </BaseLayout>
