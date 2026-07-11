@@ -3,10 +3,25 @@ import '../styles/global.css';
 
 const {
   title = 'Science Brain News',
-  description = '뇌과학과 생명과학에서 핫하거나 유용한 뉴스를 선별해 정리합니다.'
+  description = '뇌과학과 생명과학의 최신 연구를 읽기 쉬운 한국어로 정리합니다.'
 } = Astro.props;
+
 const base = import.meta.env.BASE_URL.endsWith('/') ? import.meta.env.BASE_URL : `${import.meta.env.BASE_URL}/`;
 const href = (path = '') => `${base}${path.replace(/^\/+/, '')}`;
+const pathname = Astro.url.pathname;
+
+const navItems = [
+  { label: '오늘', path: '' },
+  { label: '뇌과학', path: 'brain/' },
+  { label: '생명과학', path: 'life/' },
+  { label: '논문', path: 'papers/' },
+  { label: '소개', path: 'about/' }
+];
+
+const isActive = (path) => {
+  if (!path) return pathname === base || pathname === base.slice(0, -1);
+  return pathname.startsWith(href(path));
+};
 ---
 <!doctype html>
 <html lang="ko">
@@ -14,6 +29,7 @@ const href = (path = '') => `${base}${path.replace(/^\/+/, '')}`;
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#f5f6f2" />
     <meta property="og:title" content={title} />
     <meta property="og:description" content={description} />
     <meta property="og:type" content="website" />
@@ -24,23 +40,39 @@ const href = (path = '') => `${base}${path.replace(/^\/+/, '')}`;
   <body>
     <header class="site-header">
       <div class="container nav">
-        <a class="logo" href={base}>Science <span>Brain</span> News</a>
-        <nav class="nav-links" aria-label="Main navigation">
-          <a href={base}>Today</a>
-          <a href={href('brain/')}>뇌과학</a>
-          <a href={href('life/')}>생명과학</a>
-          <a href={href('papers/')}>논문</a>
-          <a href={href('about/')}>About</a>
-          <a href={href('rss.xml')}>RSS</a>
+        <a class="logo" href={base} aria-label="Science Brain News 홈">
+          <span class="logo-mark" aria-hidden="true">SB</span>
+          <span class="logo-copy">
+            <strong>Science Brain</strong>
+            <small>News & Research</small>
+          </span>
+        </a>
+
+        <nav class="nav-links" aria-label="주요 메뉴">
+          {navItems.map((item) => (
+            <a class:list={[{ active: isActive(item.path) }]} href={href(item.path)}>{item.label}</a>
+          ))}
+          <a class="rss-link" href={href('rss.xml')}>RSS</a>
         </nav>
       </div>
     </header>
+
     <main>
       <slot />
     </main>
+
     <footer class="footer">
-      <div class="container">
-        <p>Science Brain News는 자동 수집 후보를 사람이 다시 읽기 쉽게 큐레이션하는 GitHub Pages 뉴스 아카이브입니다.</p>
+      <div class="container footer-inner">
+        <div>
+          <p class="footer-brand">Science Brain News</p>
+          <p>복잡한 연구를 과장 없이, 읽히는 한국어로 정리합니다.</p>
+        </div>
+        <div class="footer-links">
+          <a href={href('brain/')}>뇌과학</a>
+          <a href={href('life/')}>생명과학</a>
+          <a href={href('papers/')}>논문</a>
+          <a href={href('about/')}>운영 기준</a>
+        </div>
       </div>
     </footer>
   </body>
