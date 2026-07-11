@@ -6,11 +6,19 @@ const items = await getNewsByCategory('생명과학');
 ---
 <BaseLayout title="생명과학 | Science Brain News">
   <section class="container hero">
-    <span class="kicker">Life Science</span>
-    <h1>생명과학 뉴스.</h1>
-    <p class="lead">세포, 유전, 면역, 노화, 바이오테크 관련 뉴스를 모읍니다.</p>
+    <span class="kicker">LIFE SCIENCE</span>
+    <h1>생명을 읽는<br />새로운 관점.</h1>
+    <p class="lead">세포, 유전, 면역, 노화와 바이오테크 연구를 이해하기 쉽게 정리합니다.</p>
   </section>
-  <section class="container">
+
+  <section class="container section">
+    <div class="section-head">
+      <div>
+        <span class="section-label">ARCHIVE</span>
+        <h2>생명과학 글 {items.length}개</h2>
+        <p>최신 글부터 시간순으로 모았습니다.</p>
+      </div>
+    </div>
     <div class="grid">{items.map((item) => <NewsCard item={item} />)}</div>
   </section>
 </BaseLayout>
