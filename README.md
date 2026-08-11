@@ -2,6 +2,14 @@
 
 Astro 기반 GitHub Pages용 뇌과학·생명과학 뉴스 큐레이션 사이트입니다.
 
+## 사이트 접속
+
+- **GitHub Pages:** https://mikeshin0822.github.io/science-brain-news/
+- **RSS:** https://mikeshin0822.github.io/science-brain-news/rss.xml
+- **GitHub 저장소:** https://github.com/MikeShin0822/science-brain-news
+
+> 일반 사용자는 위 GitHub Pages 주소로 접속하면 됩니다.
+
 ## Stack
 
 - Astro
@@ -64,5 +72,11 @@ tags: ["수면", "기억"]
 ## Deploy
 
 `main` 브랜치에 push되면 `.github/workflows/deploy.yml`이 Astro 사이트를 빌드해 GitHub Pages에 배포합니다.
+
+배포 주소:
+
+```text
+https://mikeshin0822.github.io/science-brain-news/
+```
 
 저장소 Settings → Pages에서 Source를 GitHub Actions로 설정하세요.
