@@ -1,0 +1,82 @@
+[
+  {
+    "hash": "55fe157795549763",
+    "url": "https://www.axios.com/2026/08/13/virtual-cell-ai-biology",
+    "title": "Virtual cell AI biology race",
+    "source": "Axios / Nature Medicine",
+    "kind": "popular",
+    "added_at": "2026-08-14T09:30:00+09:00"
+  },
+  {
+    "hash": "e2b935e46b626e2c",
+    "url": "https://phys.org/news/2026-07-surface-advances-mitochondrial-transplantation-potential.html",
+    "title": "Engineered mitochondrial surface improves cellular uptake",
+    "source": "Phys.org / Hokkaido University",
+    "kind": "popular",
+    "added_at": "2026-08-14T09:30:00+09:00"
+  },
+  {
+    "hash": "0bb2c4f46c23a3fd",
+    "url": "https://phys.org/news/2026-07-bacteria-virus-dna.html",
+    "title": "Cas1-Cas2 exploits DNA replication gaps during naive CRISPR adaptation",
+    "source": "Phys.org / University of Nottingham & Brunel University London",
+    "kind": "popular",
+    "added_at": "2026-08-14T09:30:00+09:00"
+  },
+  {
+    "hash": "feb690d0e34eacf0",
+    "url": "https://phys.org/news/2026-07-scientists-cells-dna.html",
+    "title": "DNA replication initiation and MCM2-7 opening gate",
+    "source": "Phys.org / MRC Laboratory of Medical Sciences",
+    "kind": "popular",
+    "added_at": "2026-08-14T09:30:00+09:00"
+  },
+  {
+    "hash": "ca587d850a2c44e9",
+    "url": "https://phys.org/news/2026-07-bacteria-mineral-shield-marine-infrastructure.html",
+    "title": "Synthetic bacterial communities form mineral anti-corrosion layers",
+    "source": "Phys.org / Reichman University",
+    "kind": "popular",
+    "added_at": "2026-08-14T09:30:00+09:00"
+  },
+  {
+    "hash": "a72286f128660578",
+    "url": "https://doi.org/10.1016/j.expneurol.2026.115802",
+    "title": "Synaptic RNA m6A regulates hippocampal plasticity",
+    "source": "Experimental Neurology",
+    "kind": "paper",
+    "added_at": "2026-08-14T09:30:00+09:00"
+  },
+  {
+    "hash": "f933b39fe17eaac4",
+    "url": "https://arxiv.org/abs/2608.10924",
+    "title": "SERS tracks single-cell electrical permeabilization dynamics",
+    "source": "arXiv",
+    "kind": "paper",
+    "added_at": "2026-08-14T09:30:00+09:00"
+  },
+  {
+    "hash": "ee2e82d9ecc5903b",
+    "url": "https://www.nature.com/articles/s41586-026-10856-2",
+    "title": "In situ structure of the poxvirus portal complex",
+    "source": "Nature",
+    "kind": "paper",
+    "added_at": "2026-08-14T09:30:00+09:00"
+  },
+  {
+    "hash": "448843bbb0c8e71d",
+    "url": "https://elifesciences.org/articles/107531",
+    "title": "CellCover marker panels for neocortical neural stem cell identity",
+    "source": "eLife",
+    "kind": "paper",
+    "added_at": "2026-08-14T09:30:00+09:00"
+  },
+  {
+    "hash": "73a1ae24826aaaca",
+    "url": "https://elifesciences.org/articles/107635",
+    "title": "Stable excitatory-inhibitory synapse balance despite turnover",
+    "source": "eLife",
+    "kind": "paper",
+    "added_at": "2026-08-14T09:30:00+09:00"
+  }
+]
