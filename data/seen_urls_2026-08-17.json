@@ -1,0 +1,82 @@
+[
+  {
+    "hash": "63a69da081ac433d",
+    "url": "https://medicalxpress.com/news/2026-08-ai-framework-decodes-brain-regions.html",
+    "title": "CURBD brain-wide interactions",
+    "source": "Harvard Medical School / Medical Xpress",
+    "kind": "popular",
+    "added_at": "2026-08-17T09:30:00+09:00"
+  },
+  {
+    "hash": "e2ca4dc50cfe003f",
+    "url": "https://medicalxpress.com/news/2026-08-noninvasive-brain-parkinson-nonmotor-symptoms.html",
+    "title": "Parkinson tDCS wearable preliminary study",
+    "source": "Korea University College of Medicine / Medical Xpress",
+    "kind": "popular",
+    "added_at": "2026-08-17T09:30:00+09:00"
+  },
+  {
+    "hash": "2584be570c6ba0e0",
+    "url": "https://phys.org/news/2026-08-sixteen-ai-viruses-route-drug.html",
+    "title": "AI-designed bacteriophages",
+    "source": "Phys.org / Science",
+    "kind": "popular",
+    "added_at": "2026-08-17T09:30:00+09:00"
+  },
+  {
+    "hash": "0750f0ffc416aa46",
+    "url": "https://medicalxpress.com/news/2026-08-simple-blood-chip-lung-cancer.html",
+    "title": "lung cancer cfDNA methylation chip",
+    "source": "Tel Aviv University / Medical Xpress",
+    "kind": "popular",
+    "added_at": "2026-08-17T09:30:00+09:00"
+  },
+  {
+    "hash": "5e50d45f7de26365",
+    "url": "https://medicalxpress.com/news/2026-08-molecular-reveals-hidden-cellular-heart.html",
+    "title": "heart transplant spatial transcriptomics",
+    "source": "Vanderbilt University Medical Center / Medical Xpress",
+    "kind": "popular",
+    "added_at": "2026-08-17T09:30:00+09:00"
+  },
+  {
+    "hash": "e1644130715bdd76",
+    "url": "https://doi.org/10.1038/s41564-026-02444-x",
+    "title": "infant macaque HIV combination therapy",
+    "source": "Nature Microbiology",
+    "kind": "paper",
+    "added_at": "2026-08-17T09:30:00+09:00"
+  },
+  {
+    "hash": "d807e414f92d2df4",
+    "url": "https://doi.org/10.1016/j.neuroscience.2026.05.041",
+    "title": "Universal EEG Clip hair bias",
+    "source": "Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-08-17T09:30:00+09:00"
+  },
+  {
+    "hash": "027509a2f7f27c8e",
+    "url": "https://doi.org/10.1016/j.neuroscience.2026.05.038",
+    "title": "spaced learning hippocampus-independent fear memory",
+    "source": "Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-08-17T09:30:00+09:00"
+  },
+  {
+    "hash": "f9aeff255db2ea31",
+    "url": "https://doi.org/10.1016/j.neuroscience.2026.05.010",
+    "title": "DTI-ALPS Alzheimer biomarkers tau-PET",
+    "source": "Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-08-17T09:30:00+09:00"
+  },
+  {
+    "hash": "f1f32b42c30e4eec",
+    "url": "https://doi.org/10.1016/j.neuroscience.2026.05.027",
+    "title": "SCA3 white matter structural network",
+    "source": "Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-08-17T09:30:00+09:00"
+  }
+]
