@@ -1,0 +1,82 @@
+[
+  {
+    "hash": "07ff0a4aa5fd4dfd",
+    "url": "https://www.nih.gov/news-events/nih-research-matters/scientists-identify-new-role-tau-protein-brain-diseases",
+    "title": "비정상 타우가 미토콘드리아의 역방향 전자수송을 켜 신경퇴행을 증폭한다는 전임상 연구",
+    "source": "NIH Research Matters / Neuron",
+    "kind": "popular",
+    "added_at": "2026-09-09T09:30:00+09:00"
+  },
+  {
+    "hash": "0b8a29660563db74",
+    "url": "https://news.feinberg.northwestern.edu/2026/09/08/understanding-the-link-between-genetic-risk-and-brain-communication-disorders/",
+    "title": "정신질환 위험유전자 ANK3가 성체 뉴런 활동과 미엘린 관련 단백질 유지에도 필요하다는 생쥐 연구",
+    "source": "Northwestern Medicine / PNAS",
+    "kind": "popular",
+    "added_at": "2026-09-09T09:30:00+09:00"
+  },
+  {
+    "hash": "6bbe2dc91a7cfd81",
+    "url": "https://www.nig.ac.jp/en/highlights/14988/",
+    "title": "활성 유크로마틴도 응축된 도메인을 만들며 cohesin이 이웃 영역의 섞임을 막는다는 살아있는 세포 연구",
+    "source": "National Institute of Genetics / Nature Genetics",
+    "kind": "popular",
+    "added_at": "2026-09-09T09:30:00+09:00"
+  },
+  {
+    "hash": "ac61be039cd63c8b",
+    "url": "https://humsci.stanford.edu/feature/worms-radical-transformation-shows-metamorphosis-can-change-functions-cells",
+    "title": "도토리벌레 변태 과정에서 절반이 넘는 유생 세포가 다른 성체 기능으로 재프로그래밍된다는 단일세포 연구",
+    "source": "Stanford University / Nature Communications",
+    "kind": "popular",
+    "added_at": "2026-09-09T09:30:00+09:00"
+  },
+  {
+    "hash": "e382c4b70e23abaf",
+    "url": "https://newsroom.ucla.edu/releases/scientists-engineer-ready-to-use-cancer-fighting-t-cells-solid-tumors",
+    "title": "제대혈 줄기세포에서 만든 ‘기성품형’ T세포가 고형암을 두 경로로 공격한 전임상 연구",
+    "source": "UCLA / Cell Reports Medicine",
+    "kind": "popular",
+    "added_at": "2026-09-09T09:30:00+09:00"
+  },
+  {
+    "hash": "91d7735b4a5d941c",
+    "url": "https://www.nature.com/articles/s41593-026-02428-4",
+    "title": "장 감염을 겪은 CD4 T세포가 뇌수막과 뇌에 장기 기억세포로 자리 잡는 경로를 밝혔다",
+    "source": "Nature Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-09-09T09:30:00+09:00"
+  },
+  {
+    "hash": "6b55a677f5a6e7a1",
+    "url": "https://www.nature.com/articles/s41593-026-02417-7",
+    "title": "알츠하이머병에서 골수의 단핵구 생성 장애가 뇌로 향하는 보호성 면역세포를 줄인다는 연구",
+    "source": "Nature Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-09-09T09:30:00+09:00"
+  },
+  {
+    "hash": "0c3f674b5cdf198d",
+    "url": "https://www.nature.com/articles/s41467-026-77430-2",
+    "title": "분열 단백질 Ki-67이 뉴런의 헤테로크로마틴 응축체 조직에도 관여한다는 연구",
+    "source": "Nature Communications",
+    "kind": "paper",
+    "added_at": "2026-09-09T09:30:00+09:00"
+  },
+  {
+    "hash": "9db29e179d860e85",
+    "url": "https://www.nature.com/articles/s41594-026-01878-5",
+    "title": "ATP가 인간 NLRP6 인플라마좀을 잠긴 구조로 유지하는 분자 메커니즘을 cryo-EM으로 밝혔다",
+    "source": "Nature Structural & Molecular Biology",
+    "kind": "paper",
+    "added_at": "2026-09-09T09:30:00+09:00"
+  },
+  {
+    "hash": "8d3b8f9327a9bc81",
+    "url": "https://www.nature.com/articles/s41589-026-02292-0",
+    "title": "대식세포가 살아있는 암세포를 섭취할 때 표면 단백질을 분해하지 않고 기능째 넘겨받는 현상을 규명했다",
+    "source": "Nature Chemical Biology",
+    "kind": "paper",
+    "added_at": "2026-09-09T09:30:00+09:00"
+  }
+]
