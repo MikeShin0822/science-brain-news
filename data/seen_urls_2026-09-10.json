@@ -1,0 +1,82 @@
+[
+  {
+    "hash": "8dd96b94459769f0",
+    "url": "https://news.berkeley.edu/2026/09/09/new-ai-model-for-dna-learns-from-evolution-to-unlock-secrets-of-the-human-genome/",
+    "title": "진화 정보를 직접 읽는 DNA 언어모델 GPN-Star가 유전변이 해석 정확도와 효율을 함께 높였다",
+    "source": "UC Berkeley / Nature",
+    "kind": "popular",
+    "added_at": "2026-09-10T09:30:00+09:00"
+  },
+  {
+    "hash": "1eabec2aa32a1e70",
+    "url": "https://news.cornell.edu/stories/2026/09/ai-reveals-new-class-cellular-switch-linked-cancer-pathways",
+    "title": "AI가 찾아낸 Avl9가 세포 수송 단백질 Arf1을 끄는 새로운 DENN 계열 ‘오프 스위치’로 밝혀졌다",
+    "source": "Cornell University / Journal of Cell Biology",
+    "kind": "popular",
+    "added_at": "2026-09-10T09:30:00+09:00"
+  },
+  {
+    "hash": "8b268905c844b4ee",
+    "url": "https://www.michiganmedicine.org/health-lab/psychedelics-and-anesthetics-create-mirror-image-patterns-brain",
+    "title": "환각제와 수면·마취가 뇌 네트워크 통합성에서 서로 ‘거울상’ 패턴을 보인다는 인간 fMRI 연구",
+    "source": "Michigan Medicine / Cell Reports",
+    "kind": "popular",
+    "added_at": "2026-09-10T09:30:00+09:00"
+  },
+  {
+    "hash": "647a91533a4d767c",
+    "url": "https://news.mit.edu/2026/pink-noise-burst-may-mean-more-restorative-sleep-0909",
+    "title": "수면 중 뇌파 위상에 맞춘 ‘핑크 노이즈’가 인간의 뇌척수액 파동을 더 크게 만들었다",
+    "source": "MIT News / Science Translational Medicine",
+    "kind": "popular",
+    "added_at": "2026-09-10T09:30:00+09:00"
+  },
+  {
+    "hash": "8aeacc79f6bd6600",
+    "url": "https://www.ucdavis.edu/health/news/deconstructing-lsd-therapeutic-discoveries",
+    "title": "LSD의 고리 구조를 단계적으로 해체해 환각성과 심장 위험을 낮춘 새로운 ‘ergolog’ 후보를 만들었다",
+    "source": "UC Davis / PNAS",
+    "kind": "popular",
+    "added_at": "2026-09-10T09:30:00+09:00"
+  },
+  {
+    "hash": "3601114d2312047a",
+    "url": "https://www.nature.com/articles/s41586-026-10876-y",
+    "title": "희소한 Sst-Chodl 억제뉴런의 장거리 연결이 대뇌피질 동기화를 만들고 수면을 촉진한다",
+    "source": "Nature",
+    "kind": "paper",
+    "added_at": "2026-09-10T09:30:00+09:00"
+  },
+  {
+    "hash": "11797426674a9670",
+    "url": "https://www.nature.com/articles/s41586-026-10993-8",
+    "title": "2억 개가 넘는 단백질 구조를 뒤져 찾은 TM184C가 세포 간 물질교환과 자가포식을 조절하는 GPCR 유사 단백질로 밝혀졌다",
+    "source": "Nature",
+    "kind": "paper",
+    "added_at": "2026-09-10T09:30:00+09:00"
+  },
+  {
+    "hash": "ae2f2ce4b532fd4a",
+    "url": "https://www.nature.com/articles/s41591-026-04607-z",
+    "title": "폐 상피 RAGE를 직접 낮추는 흡입형 siRNA ARO-RAGE가 첫 인간시험에서 지속적인 표적 억제를 보였다",
+    "source": "Nature Medicine",
+    "kind": "paper",
+    "added_at": "2026-09-10T09:30:00+09:00"
+  },
+  {
+    "hash": "1e96c163822c8704",
+    "url": "https://www.nature.com/articles/s41467-026-77545-6",
+    "title": "2,796명의 다중모달 MRI로 감각피질은 일찍, 연합피질은 늦게 구조적 전환점을 맞는 뇌 노화 지도를 만들었다",
+    "source": "Nature Communications",
+    "kind": "paper",
+    "added_at": "2026-09-10T09:30:00+09:00"
+  },
+  {
+    "hash": "f6c503a6a366affe",
+    "url": "https://www.nature.com/articles/s41586-026-11002-8",
+    "title": "췌장암의 희소한 SERPINE1·SERPINB2 세포가 피브린 틈새를 만들어 면역억제 대식세포를 조직한다",
+    "source": "Nature",
+    "kind": "paper",
+    "added_at": "2026-09-10T09:30:00+09:00"
+  }
+]
