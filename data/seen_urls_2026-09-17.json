@@ -1,0 +1,82 @@
+[
+  {
+    "hash": "2b4224bd4cd89d6b",
+    "url": "https://www.brown.edu/news/2026-09-16/spinal-cord-axons",
+    "title": "축삭은 끝부분만 길을 찾는 게 아니었다… 척수 뉴런의 세포체가 ‘유전자 프로그램’을 통째로 바꿨다",
+    "source": "Brown University / PNAS",
+    "kind": "popular",
+    "added_at": "2026-09-17T09:30:00+09:00"
+  },
+  {
+    "hash": "be5ff2512898f0ab",
+    "url": "https://radiology.utsouthwestern.edu/newsroom/articles/year-2026/sept-aggressive-brain-tumor-growth.html",
+    "title": "고등급 교종은 구아니디노아세트산을 약 100배 축적해 주변 뉴런을 흥분시키고 스스로 성장 신호를 만들었다",
+    "source": "UT Southwestern / Cell",
+    "kind": "popular",
+    "added_at": "2026-09-17T09:30:00+09:00"
+  },
+  {
+    "hash": "8da33249b7f913dc",
+    "url": "https://med.stanford.edu/news/all-news/2026/09/model-to-study-brain-development.html",
+    "title": "피질 대부분이 비어 있는 생쥐에 인간 뇌 오가노이드를 이식하자, 인간 신경조직이 피질 공간의 90% 이상을 차지하며 회로를 만들었다",
+    "source": "Stanford Medicine / Nature",
+    "kind": "popular",
+    "added_at": "2026-09-17T09:30:00+09:00"
+  },
+  {
+    "hash": "2a68c866f6bf3577",
+    "url": "https://www.ox.ac.uk/news/2026-09-16-new-method-reveals-how-virus-particles-can-build-themselves-molecule-by-molecule",
+    "title": "바이러스 껍질이 스스로 조립되는 과정을 한 입자씩 ‘영상’으로 보니, 수많은 경로가 몇 개의 안정한 중간단계로 수렴했다",
+    "source": "University of Oxford / Nature",
+    "kind": "popular",
+    "added_at": "2026-09-17T09:30:00+09:00"
+  },
+  {
+    "hash": "54e487d9fd5c3019",
+    "url": "https://www.eurekalert.org/news-releases/1144221",
+    "title": "폭식증 17개 국제 코호트 MRI를 합치자 보상회로·측두피질 구조 차이가 반복됐고, 폭식 빈도가 높을수록 차이가 넓어졌다",
+    "source": "Mount Sinai / JAMA Psychiatry",
+    "kind": "popular",
+    "added_at": "2026-09-17T09:30:00+09:00"
+  },
+  {
+    "hash": "101e455e77541843",
+    "url": "https://www.nature.com/articles/s41593-026-02448-0",
+    "title": "해마 성상교세포도 공포학습 뒤 시간순서가 있는 칼슘 시퀀스를 만들고, 같은 맥락에서 기억을 꺼낼 때 다시 나타났다",
+    "source": "Nature Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-09-17T09:30:00+09:00"
+  },
+  {
+    "hash": "3cb32ac81b963fd9",
+    "url": "https://www.nature.com/articles/s41593-026-02449-z",
+    "title": "소뇌는 움직임만 계산하지 않았다… 과립세포는 도파민 보상을 미리 예측하고, climbing fiber는 보상 직후 ‘학습 신호’를 보냈다",
+    "source": "Nature Neuroscience",
+    "kind": "paper",
+    "added_at": "2026-09-17T09:30:00+09:00"
+  },
+  {
+    "hash": "5e2446560ba42a5a",
+    "url": "https://www.nature.com/articles/s41586-026-11014-4",
+    "title": "전전두피질의 정체성을 유지하는 RA→MEIS2→ALDH1A3→RA 자기증폭 회로가 발견됐다",
+    "source": "Nature",
+    "kind": "paper",
+    "added_at": "2026-09-17T09:30:00+09:00"
+  },
+  {
+    "hash": "edb68b36f396443e",
+    "url": "https://www.nature.com/articles/s41467-026-77901-6",
+    "title": "DNA 복제가 지나간 뒤 10분 안에 39~425kb 크기의 크로마틴 루프가 다시 만들어졌다",
+    "source": "Nature Communications",
+    "kind": "paper",
+    "added_at": "2026-09-17T09:30:00+09:00"
+  },
+  {
+    "hash": "157ba5842880adb6",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.09.14.751376v1",
+    "title": "개 뇌 약 6만 개 핵의 단일세포 지도가 공개됐다… 뉴런은 사람·생쥐와 보존됐지만 교세포는 더 크게 달랐다",
+    "source": "bioRxiv",
+    "kind": "paper",
+    "added_at": "2026-09-17T09:30:00+09:00"
+  }
+]
