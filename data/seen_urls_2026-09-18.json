@@ -1,0 +1,82 @@
+[
+  {
+    "hash": "428d39367bf2a761",
+    "url": "https://news.ohsu.edu/2026/09/17/intermittent-fasting-shows-promise-in-slowing-huntingtons-disease-progression",
+    "title": "헌팅턴병 환자 20명이 12주간 하루 6~8시간만 식사하자 신경손상 지표가 낮아졌다… 그러나 아직 ‘치료 효과’로 볼 단계는 아니다",
+    "source": "OHSU / Nature Metabolism",
+    "kind": "popular",
+    "added_at": "2026-09-18T09:30:00+09:00"
+  },
+  {
+    "hash": "2e60725593027dcb",
+    "url": "https://news.emory.edu/stories/2026/09/cancer-medication-helps-reduce-siv-reservoir-increases-hope-hiv-cure",
+    "title": "암 치료제 베네토클락스가 원숭이 SIV 저장소를 줄였다… HIV 완치를 가로막는 ‘오래 사는 감염세포’를 직접 겨냥",
+    "source": "Emory University / Nature Microbiology",
+    "kind": "popular",
+    "added_at": "2026-09-18T09:30:00+09:00"
+  },
+  {
+    "hash": "d37536eeb7cd076b",
+    "url": "https://med.stanford.edu/news/all-news/2026/09/virtual-biotech-company.html",
+    "title": "AI 에이전트 3만7천 개로 ‘가상 바이오텍’을 만들자 5만 건 임상시험을 일주일 안에 분석하고 신약 표적 규칙을 찾아냈다",
+    "source": "Stanford Medicine / Science",
+    "kind": "popular",
+    "added_at": "2026-09-18T09:30:00+09:00"
+  },
+  {
+    "hash": "332a1da4a8e37fc0",
+    "url": "https://news.cornell.edu/stories/2026/09/fungi-nutrient-sensing-breakthrough-may-aid-green-tech-disease-control",
+    "title": "곰팡이는 포도당이 생기면 복잡한 당 분해를 멈추는데, Cbr1은 그 ‘브레이크’를 풀어 식물성 탄소를 계속 먹게 했다",
+    "source": "Cornell University / PLOS Biology",
+    "kind": "popular",
+    "added_at": "2026-09-18T09:30:00+09:00"
+  },
+  {
+    "hash": "9aa56106b450a0e4",
+    "url": "https://med.stanford.edu/news/all-news/2026/09/seizure-drug-gliomas.html",
+    "title": "항경련제 레비티라세탐이 소아 미만성 정중선 교종의 ‘신경-암 시냅스’를 약화시켜 성장 속도를 늦췄다",
+    "source": "Stanford Medicine / Nature Medicine",
+    "kind": "popular",
+    "added_at": "2026-09-18T09:30:00+09:00"
+  },
+  {
+    "hash": "403a431fa6db3753",
+    "url": "https://www.nature.com/articles/s41467-026-77484-2",
+    "title": "6,500만 개 분자를 TAAR1 구조에 도킹해 14개 작용제를 찾았다… cryo-EM으로 결합 자세까지 확인한 비도파민계 항정신병 후보 탐색",
+    "source": "Nature Communications",
+    "kind": "paper",
+    "added_at": "2026-09-18T09:30:00+09:00"
+  },
+  {
+    "hash": "9dca18271e2d337c",
+    "url": "https://www.nature.com/articles/s41591-026-04662-6",
+    "title": "15개 장기에 성별을 따로 학습한 38개 ‘생물학적 나이 시계’를 만들자 뇌·간·대사 노화의 유전·단백질·질병 연관성이 달라졌다",
+    "source": "Nature Medicine",
+    "kind": "paper",
+    "added_at": "2026-09-18T09:30:00+09:00"
+  },
+  {
+    "hash": "d1f2e31e63d1009e",
+    "url": "https://www.nature.com/articles/s41467-026-77780-x",
+    "title": "사람 바이러스의 전사조절 단백질 95개를 한꺼번에 기능지도화하자 면역·세포사멸·신호전달의 공통 ‘압력점’을 서로 다른 방식으로 재배선했다",
+    "source": "Nature Communications",
+    "kind": "paper",
+    "added_at": "2026-09-18T09:30:00+09:00"
+  },
+  {
+    "hash": "cdc108b4930a4c21",
+    "url": "https://www.nature.com/articles/s43856-026-01849-3",
+    "title": "뇌졸중 MRI 1만463건으로 vision transformer를 훈련하자 U-Net보다 병변을 더 잘 찾고 ‘병변 없음’ 오탐과 집단별 성능편차를 줄였다",
+    "source": "Communications Medicine",
+    "kind": "paper",
+    "added_at": "2026-09-18T09:30:00+09:00"
+  },
+  {
+    "hash": "b767be58fabb6f53",
+    "url": "https://www.biorxiv.org/content/10.64898/2026.09.09.750499v1",
+    "title": "한 뇌영역의 신호로 기록하지 않은 다른 영역의 파형을 복원하는 NeuroGate… 56개 회로에서 13개 기준모델보다 높은 정확도를 보고한 프리프린트",
+    "source": "bioRxiv",
+    "kind": "paper",
+    "added_at": "2026-09-18T09:30:00+09:00"
+  }
+]
