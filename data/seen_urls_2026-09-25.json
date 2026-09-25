@@ -1,10 +1,82 @@
 [
   {
-    "hash": "f9a71742cd94f24c",
-    "url": "https://news.mit.edu/2026/biologists-identify-cellular-pathway-allows-colorectal-cancer-metastasize-0924",
-    "title": "고지방 환경의 ceramide가 YAP1 재생 프로그램을 켰다… 대장암 간 전이를 허용하는 대사-세포상태 경로",
-    "source": "MIT / Science",
+    "hash": "dfd747fd46bd0dec",
+    "url": "https://www.brown.edu/news/2026-09-23/braingate-mirror-neurons",
+    "title": "사람처럼 보이는 손일수록 관찰 중 운동피질이 더 강하게 반응했다… BrainGate가 본 ‘거울형’ 신호",
+    "source": "Brown University / PNAS",
     "kind": "popular",
+    "added_at": "2026-09-25T09:30:00+09:00"
+  },
+  {
+    "hash": "fa6907b4667710eb",
+    "url": "https://news.cornell.edu/stories/2026/09/new-type-human-jumping-gene-found-poxvirus",
+    "title": "뉴런의 기능성 RNA BC200은 ‘점프’ 능력도 유지했다… 사람 유전물질이 폭스바이러스로 이동한 흔적",
+    "source": "Cornell University / Science",
+    "kind": "popular",
+    "added_at": "2026-09-25T09:30:00+09:00"
+  },
+  {
+    "hash": "a5bcdcac24a9c1dc",
+    "url": "https://www.mountsinai.org/about/newsroom/2026/mount-sinai-researchers-identify-how-apoe4-gene-damages-brain-blood-vessels-in-alzheimers-disease",
+    "title": "APOE4는 뇌혈관 지지세포를 흉터형 세포로 바꿨다… miBrain이 드러낸 혈관 섬유화와 단백질 청소 실패",
+    "source": "Mount Sinai / Cell & Cell Stem Cell",
+    "kind": "popular",
+    "added_at": "2026-09-25T09:30:00+09:00"
+  },
+  {
+    "hash": "cf83d9bbc592ac27",
+    "url": "https://news.mit.edu/2026/new-cell-collection-device-could-improve-early-cancer-detection-0924",
+    "title": "칼 대신 미세한 유체 전단력으로 살아 있는 세포를 골라냈다… 난관 조직에서 오가노이드까지 만든 휴대형 샘플러",
+    "source": "MIT / Device",
+    "kind": "popular",
+    "added_at": "2026-09-25T09:30:00+09:00"
+  },
+  {
+    "hash": "f745b788ce2ca5a1",
+    "url": "https://astrobiology.com/2026/09/24/could-earths-magnetic-field-influence-earth-life-ages/",
+    "title": "지구 자기장을 거의 없애자 초파리 미토콘드리아와 수명이 달라졌다… Pink1 상태에 따라 효과 방향도 반대였다",
+    "source": "University of Nottingham / Aging",
+    "kind": "popular",
+    "added_at": "2026-09-25T09:30:00+09:00"
+  },
+  {
+    "hash": "2dcc3e9244f789b3",
+    "url": "https://www.nature.com/articles/s41467-026-77354-x",
+    "title": "DNase I가 DNA를 자르는 순간을 실시간 나노미터 영상으로 봤다… DNA 굽힘과 protamine 압축이 절단 운명을 갈랐다",
+    "source": "Nature Communications",
+    "kind": "paper",
+    "added_at": "2026-09-25T09:30:00+09:00"
+  },
+  {
+    "hash": "17f0855a47dd13e3",
+    "url": "https://www.nature.com/articles/s41586-026-11016-2",
+    "title": "아미노산 9개짜리 펩타이드가 벌집형 나노채널 격자를 스스로 만들었다… 서열에 구조의 대칭성이 코딩됐다",
+    "source": "Nature",
+    "kind": "paper",
+    "added_at": "2026-09-25T09:30:00+09:00"
+  },
+  {
+    "hash": "0af2552beeca8691",
+    "url": "https://www.nature.com/articles/s41556-026-02067-8",
+    "title": "단일세포·공간 multi-omics의 잡음을 반복적으로 줄이며 통합했다… 6개 modality·13개 플랫폼을 묶은 DePass",
+    "source": "Nature Cell Biology",
+    "kind": "paper",
+    "added_at": "2026-09-25T09:30:00+09:00"
+  },
+  {
+    "hash": "aa7e0908d8f2b5f0",
+    "url": "https://www.nature.com/articles/s41467-026-78036-4",
+    "title": "감수분열 염색체는 한 번에 붙지 않았다… 생쥐 생식세포에서 4.8→1.7→0.7 μm의 단계적 homolog pairing",
+    "source": "Nature Communications",
+    "kind": "paper",
+    "added_at": "2026-09-25T09:30:00+09:00"
+  },
+  {
+    "hash": "cb1f395bea4362df",
+    "url": "https://www.nature.com/articles/s41467-026-77753-0",
+    "title": "해양 산성화를 갑자기 만들면 규조류 반응을 과대평가했다… 1,100세대의 점진적 CO₂ 증가 실험",
+    "source": "Nature Communications",
+    "kind": "paper",
     "added_at": "2026-09-25T09:30:00+09:00"
   }
 ]
