@@ -1,0 +1,82 @@
+[
+  {
+    "hash": "d10734b42b8eb13a",
+    "url": "https://www.eurekalert.org/news-releases/1144517",
+    "title": "뉴런 수를 늘리면 정보는 결국 포화될까? V1의 공유 잡음이 정보 증가를 늦추지만 멈추지는 않았다",
+    "source": "Kyoto University / Science Advances",
+    "kind": "popular",
+    "added_at": "2026-09-27T09:30:00+09:00"
+  },
+  {
+    "hash": "674a9a5d4492e3bc",
+    "url": "https://www.bcm.edu/news/researchers-link-brain-injury-to-brain-tumors",
+    "title": "뇌졸중 뒤 손상환경이 교종의 침윤을 키웠다… 성상교세포와 면역세포가 매개",
+    "source": "Baylor College of Medicine / Nature Cancer",
+    "kind": "popular",
+    "added_at": "2026-09-27T09:30:00+09:00"
+  },
+  {
+    "hash": "68cf99ca9a15a23c",
+    "url": "https://www.helsinki.fi/en/news/brain/researchers-identify-five-brain-profiles-depression",
+    "title": "같은 우울증 진단 안에서도 뇌 연결성은 반대 방향이었다… MEG로 5개 기능 프로필 확인",
+    "source": "University of Helsinki / Nature Mental Health",
+    "kind": "popular",
+    "added_at": "2026-09-27T09:30:00+09:00"
+  },
+  {
+    "hash": "96b4e3a5a3dd88d9",
+    "url": "https://www.eurekalert.org/news-releases/1145466",
+    "title": "비암호화 RNA 안에 숨어 있던 54 kDa 단백질 MSEP… 세포분열 방추체를 별도 경로로 지탱했다",
+    "source": "University of Gothenburg / Cell Reports",
+    "kind": "popular",
+    "added_at": "2026-09-27T09:30:00+09:00"
+  },
+  {
+    "hash": "d3021a5cdab6ffee",
+    "url": "https://artsandsciences.syracuse.edu/biology/news/pushing-lifes-thermal-limits/",
+    "title": "63°C에서도 분열한 ‘불 아메바’… 진핵생물의 알려진 증식 온도 상한을 다시 썼다",
+    "source": "Syracuse University / Cell",
+    "kind": "popular",
+    "added_at": "2026-09-27T09:30:00+09:00"
+  },
+  {
+    "hash": "993f5870a1fec9e8",
+    "url": "https://www.nature.com/articles/s42003-026-11043-9",
+    "title": "클라트린 어댑터가 막 주변에서 액-액 상분리를 만들었다… Ent5와 Sla2의 서로 다른 응축 전략",
+    "source": "Communications Biology",
+    "kind": "paper",
+    "added_at": "2026-09-27T09:30:00+09:00"
+  },
+  {
+    "hash": "ca6f4e03716ea271",
+    "url": "https://www.nature.com/articles/s42003-026-11019-9",
+    "title": "CRISPR gene drive 모기가 표적 유전자 밖의 전사체도 바꿨다… 성별·먹이 조건을 나눠 RNA-seq 분석",
+    "source": "Communications Biology",
+    "kind": "paper",
+    "added_at": "2026-09-27T09:30:00+09:00"
+  },
+  {
+    "hash": "6c63f6b11878f4dc",
+    "url": "https://www.nature.com/articles/s42003-026-10877-7",
+    "title": "시냅스 가중치는 고정해도 수십 개 과제를 바꿔 풀었다… 뉴런 흥분성만 학습하는 bias-only network",
+    "source": "Communications Biology",
+    "kind": "paper",
+    "added_at": "2026-09-27T09:30:00+09:00"
+  },
+  {
+    "hash": "3df90084dd8747d8",
+    "url": "https://www.nature.com/articles/s41467-026-78032-8",
+    "title": "DNA polymerase ζ가 RNA 주형도 읽는 구조적 이유… RNA:DNA 말단을 B형 DNA처럼 맞췄다",
+    "source": "Nature Communications",
+    "kind": "paper",
+    "added_at": "2026-09-27T09:30:00+09:00"
+  },
+  {
+    "hash": "328110e4c6c2d0fc",
+    "url": "https://www.nature.com/articles/s41467-026-77869-3",
+    "title": "미토콘드리아 crista junction을 가로지르는 Mic60-Mic19… 유연한 확산장벽의 구조모델",
+    "source": "Nature Communications",
+    "kind": "paper",
+    "added_at": "2026-09-27T09:30:00+09:00"
+  }
+]
